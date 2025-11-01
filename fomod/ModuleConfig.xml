@@ -26,7 +26,7 @@
                 <group name="BOS" type="SelectAny">
                     <plugins order="Explicit">
                         <plugin name="Remove unrealistic FX">
-                            <description>Install a BOS config which removes ugly glowing orange fog and extraneous mist.</description>
+                            <description>Install a BOS config which removes ugly glowing orange fog and extraneous mist. Highly recommended if you want to use the Eternal Flames option.</description>
                             <files>
                                 <file source="BOS\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
                             </files>
@@ -35,7 +35,7 @@
                             </typeDescriptor>
                         </plugin>
                         <plugin name="Remove dust FX used for godrays">
-                            <description>Install an overkill BOS config which removes potentially ugly dust. Only select this in absence of the mod Dust by FrankBlack aka Dust not Clouds</description>
+                            <description>Install an overkill BOS config which removes potentially ugly dust. Only select this in absence of Window Shadows Ultimate.</description>
                             <files>
                                 <file source="BOS\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
                             </files>
