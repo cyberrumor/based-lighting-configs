@@ -446,9 +446,9 @@
       {
         "data": {
           "color": [
-            255,
-            255,
-            166
+            200,
+            200,
+            100
           ],
           "fade": 0.5,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
