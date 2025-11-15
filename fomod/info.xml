@@ -2,10 +2,10 @@
 <fomod>
 	<Name>lpo</Name>
 	<Author>cyberrumor</Author>
-	<Version>3.7</Version>
+	<Version>3.8</Version>
 	<Website>https://www.nexusmods.com/skyrimspecialedition/mods/136870</Website>
 	<Description>Every candle wick, ember, and flame keeps the darkness at bay.</Description>
 	<Groups>
-		<element>Visuals and Graphics</element>
+	        <element>Visuals and Graphics</element>
 	</Groups>
 </fomod>
