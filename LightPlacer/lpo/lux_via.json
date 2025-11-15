@@ -1,0 +1,130 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 1.5,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\crucifiedskele\\lux_skeletoncrucifiedlantern.nif",
+      "clutter\\hangers\\lux_lanternhanger01.nif",
+      "clutter\\hangers\\lux_lanternhook.nif",
+      "clutter\\lanterns\\lux_lanterndawnguardhanging01.nif",
+      "clutter\\lanterns\\lux_lanterndawnguardtable01.nif",
+      "clutter\\lanterns\\lux_lanterndawnstarhanging01.nif",
+      "clutter\\lanterns\\lux_lanterndawnstartable01.nif",
+      "clutter\\lanterns\\lux_lanternfalkreathhanging01.nif",
+      "clutter\\lanterns\\lux_lanternfalkreathtable01.nif",
+      "clutter\\lanterns\\lux_lanternfarmshanging01.nif",
+      "clutter\\lanterns\\lux_lanternfarmstable01.nif",
+      "clutter\\lanterns\\lux_lanternmarkarthhanging01.nif",
+      "clutter\\lanterns\\lux_lanternmarkarthtable01.nif",
+      "clutter\\lanterns\\lux_lanternmorthalhanging01.nif",
+      "clutter\\lanterns\\lux_lanternmorthaltable01.nif",
+      "clutter\\lanterns\\lux_lanternorsimerhanging01.nif",
+      "clutter\\lanterns\\lux_lanternorsimertable01.nif",
+      "clutter\\lanterns\\lux_lanternriftenhanging01.nif",
+      "clutter\\lanterns\\lux_lanternriftenhanging02.nif",
+      "clutter\\lanterns\\lux_lanternriftentable01.nif",
+      "clutter\\lanterns\\lux_lanternriftentable02.nif",
+      "clutter\\lanterns\\lux_lanternruinshanging01.nif",
+      "clutter\\lanterns\\lux_lanternruinstable01.nif",
+      "clutter\\lanterns\\lux_lanternsolitudehanging01.nif",
+      "clutter\\lanterns\\lux_lanternsolitudehanging02.nif",
+      "clutter\\lanterns\\lux_lanternsolitudehanging03.nif",
+      "clutter\\lanterns\\lux_lanternsolitudehangingbugged01.nif",
+      "clutter\\lanterns\\lux_lanternsolitudetable01.nif",
+      "clutter\\lanterns\\lux_lanternsolitudetable02.nif",
+      "clutter\\lanterns\\lux_lanternsolitudetable03.nif",
+      "clutter\\lanterns\\lux_lanternsolitudetablebugged01.nif",
+      "clutter\\lanterns\\lux_lanternwhiterunhanging01.nif",
+      "clutter\\lanterns\\lux_lanternwhiterunhanging02.nif",
+      "clutter\\lanterns\\lux_lanternwhiteruntable01.nif",
+      "clutter\\lanterns\\lux_lanternwhiteruntable02.nif",
+      "clutter\\lanterns\\lux_lanternwindhelmhanging01.nif",
+      "clutter\\lanterns\\lux_lanternwindhelmhanging02.nif",
+      "clutter\\lanterns\\lux_lanternwindhelmtable01.nif",
+      "clutter\\lanterns\\lux_lanternwindhelmtable02.nif",
+      "rudy\\candlelanternwithcandlerudy01.nif",
+      "ruins clutter improved\\candlelanternrci01.nif",
+      "ruins clutter improved\\candlelanternwithcandle01rci.nif",
+      "static mesh improvement\\meshes\\clutter\\common\\candlelanternsmim01.nif",
+      "static mesh improvement\\meshes\\clutter\\common\\candlelanternwithcandlesmim01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            50,
+            100,
+            200
+          ],
+          "fade": 0.75,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\lanterns\\lux_lanternwinterholdhanging01.nif",
+      "clutter\\lanterns\\lux_lanternwinterholdhanging02.nif",
+      "clutter\\lanterns\\lux_lanternwinterholdtable01.nif",
+      "clutter\\lanterns\\lux_lanternwinterholdtable02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.75,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\ambient\\lux_fxnosmokelargeclose01.nif",
+      "effects\\bfxfirevol01.nif"
+    ]
+  }
+]

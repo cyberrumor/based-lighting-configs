@@ -164,7 +164,7 @@
                             </typeDescriptor>
                         </plugin>
                         <plugin name="LUX">
-                            <description>Select this if you'd like to whitelist lights added by LUX. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+                            <description>Select this if you'd like to whitelist lights added by LUX. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them. Note that this does not whitelist Lux Via because Light Placer configs that cover Lux Via are included.</description>
                             <files>
                                 <file source="whitelists\lux.ini" destination="LightPlacer\lpo\lux.ini" priority="0" />
                             </files>
