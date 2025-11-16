@@ -217,6 +217,15 @@
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
+                        <plugin name="Torches Candlelight and Lanterns">
+                            <description>Select this if you'd like to whitelist lights added by Torches Candlelight and Lanterns. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+                            <files>
+                                <file source="whitelists\torches_candlelight_and_lanterns.ini" destination="LightPlacer\lpo\torches_candlelight_and_lanterns.ini" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
                     </plugins>
                 </group>
             </optionalFileGroups>
