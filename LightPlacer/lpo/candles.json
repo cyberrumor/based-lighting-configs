@@ -35,7 +35,9 @@
       }
     ],
     "models": [
-      "clutter\\common\\candlelanternwithcandle01.nif"
+      "clutter\\common\\candlelanternwithcandle01.nif",
+      "enderal\\miscellaneous\\streetlamp.nif",
+      "enderal\\miscellaneous\\streetlamprod.nif"
     ]
   },
   {
@@ -109,8 +111,6 @@
       "bstamriel\\clutter\\candles\\bskcandle02.nif",
       "bstamriel\\clutter\\candles\\bskcandle03.nif",
       "bstamriel\\clutter\\candles\\bskcandle04.nif",
-      "clutter\\imperial\\impchandelliercandle01.nif",
-      "clutter\\imperial\\impwallsconce02candleon01.nif",
       "clutter\\candles\\candlehornfloor01.nif",
       "clutter\\candles\\candlehorntable01.nif",
       "clutter\\candles\\candlehornwall01.nif",
@@ -228,7 +228,6 @@
       "clutter\\silver\\silvercandlestick03_h.nif",
       "clutter\\silver\\silvercandlestick03_i.nif",
       "clutter\\silver\\silvercandlestick03_j.nif",
-      "smim\\moveablelantern_smim.nif",
       "clutter\\sovngarde\\sovcandlestick01.nif",
       "clutter\\sovngarde\\sovcandlestick01static.nif",
       "clutter\\sovngarde\\sovcandlestick02.nif",
@@ -279,7 +278,10 @@
       "dynamiccandles\\obscurecollege\\obs_silverchandeliermedium_01.nif",
       "dynamiccandles\\obscurecollege\\obs_silverchandeliersmall_01.nif",
       "effects\\testcandleflame01.nif",
-      "furniture\\workbenches\\disenchantworkbench01.nif"
+      "furniture\\workbenches\\disenchantworkbench01.nif",
+      "lilamue\\clutter\\dishes\\silver\\lmsilvercandlesstatic01var.nif",
+      "lilamue\\clutter\\dishes\\silver\\lmsilvercandlesstatic02.nif",
+      "smim\\moveablelantern_smim.nif"
     ],
     "lights": [
       {

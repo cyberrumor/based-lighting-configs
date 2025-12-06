@@ -230,6 +230,9 @@
   {
     "lights": [
       {
+        "blackList": [
+          "0x0CF29"
+        ],
         "data": {
           "color": [
             255,
