@@ -3,6 +3,7 @@
     <moduleName>lpo</moduleName>
     <requiredInstallFiles>
         <folder source="LightPlacer" destination="LightPlacer" />
+        <folder source="textures" destination="textures" />
         <folder source="particlelights" destination="particlelights" />
         <folder source="SKSE" destination="SKSE" />
     </requiredInstallFiles>
