@@ -173,8 +173,6 @@
       "clutter\\glazedcandlesstatic07.nif",
       "clutter\\glazedcandlesstatic08.nif",
       "clutter\\glazedcandlesstatic09.nif",
-      "clutter\\imperial\\impcandelabracandle01.nif",
-      "clutter\\imperial\\impcandelabracandle02.nif",
       "clutter\\imperial\\impcandle01.nif",
       "clutter\\imperial\\impcandle01_b.nif",
       "clutter\\imperial\\impcandle01_c.nif",
@@ -373,6 +371,80 @@
           "0x1818F9~OCW_Obscure's_CollegeofWinterhold.esp"
         ]
       }
+    ]
+  },
+  {
+    "lights": [
+      {
+        "points": [
+          [
+            0,
+            0,
+            200
+          ]
+        ],
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.3,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        }
+      },
+      {
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ],
+        "data": {
+          "color": [
+                226,
+                140,
+                63
+          ],
+          "fade": 0.2,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        }
+      }
+    ],
+    "models": [
+      "clutter\\imperial\\impcandelabracandle02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "points": [
+          [
+            0,
+            0,
+            125
+          ]
+        ],
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.4,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        }
+      }
+    ],
+    "models": [
+      "clutter\\imperial\\impcandelabracandle01.nif"
     ]
   },
   {
