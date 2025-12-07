@@ -126,5 +126,32 @@
     "models": [
       "dlc02\\clutter\\dlc2darkelflantern06.nif"
     ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            0,
+            0
+          ],
+          "fade": 0.3,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\architecture\\undercity\\clutter\\redlantern.nif"
+    ]
   }
 ]
