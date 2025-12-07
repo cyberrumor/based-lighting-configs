@@ -92,7 +92,7 @@
             255,
             255
           ],
-          "fade": 0.5,
+          "fade": 0.25,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 160.0
@@ -101,7 +101,7 @@
           [
             0,
             50,
-            75
+            150
           ]
         ]
       }
