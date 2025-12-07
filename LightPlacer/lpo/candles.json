@@ -36,8 +36,34 @@
     ],
     "models": [
       "clutter\\common\\candlelanternwithcandle01.nif",
-      "enderal\\miscellaneous\\streetlamp.nif",
       "enderal\\miscellaneous\\streetlamprod.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 2.0,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\miscellaneous\\streetlamp.nif"
     ]
   },
   {
