@@ -225,5 +225,60 @@
     "models": [
       "enderal\\medievalpack\\bridge.nif"
     ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "points": [
+          [
+            0,
+            -300,
+            -100
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\oriel10a.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            150,
+            175,
+            255
+          ],
+          "fade": 0.75,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            100
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\architecture\\paladin-castle\\paladincastleopenwindow.nif",
+      "enderal\\architecture\\sullevanpalacetransparentwindow.nif"
+    ]
   }
 ]
