@@ -24,39 +24,39 @@
         </installStep>
         <installStep name="Base Object Swapper Configs">
             <optionalFileGroups order="Explicit">
-                <group name="BOS" type="SelectAny">
+                <group name="bos" type="SelectAny">
                     <plugins order="Explicit">
                         <plugin name="Remove unrealistic FX">
-                            <description>Install a BOS config which removes ugly glowing orange fog and extraneous mist. Highly recommended if you want to use the Eternal Flames option.</description>
+                            <description>Install a bos config which removes ugly glowing orange fog and extraneous mist. Highly recommended if you want to use the Eternal Flames option.</description>
                             <files>
-                                <file source="BOS\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
                         <plugin name="Remove dust FX used for godrays">
-                            <description>Install an overkill BOS config which removes potentially ugly dust. Only select this in absence of Window Shadows Ultimate.</description>
+                            <description>Install an overkill bos config which removes potentially ugly dust. Only select this in absence of Window Shadows Ultimate.</description>
                             <files>
-                                <file source="BOS\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
                         <plugin name="Overhaul light sources">
-                            <description>Install a BOS config which turns on Markarth lights, and extinguishes candles that would otherwise cause light to bleed through walls.</description>
+                            <description>Install a bos config which turns on Markarth lights, and extinguishes candles that would otherwise cause light to bleed through walls.</description>
                             <files>
-                                <file source="BOS\lpo_fixtures_SWAP.ini" destination="lpo_fixtures_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo_fixtures_SWAP.ini" destination="lpo_fixtures_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
                         <plugin name="Optimizations">
-                            <description>Install a BOS config which extinguishes a portion of candles in candle clusters. Improves FPS and reduces overexposure.</description>
+                            <description>Install a bos config which extinguishes a portion of candles in candle clusters. Improves FPS and reduces overexposure.</description>
                             <files>
-                                <file source="BOS\lpo_optimize_SWAP.ini" destination="lpo_optimize_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo_optimize_SWAP.ini" destination="lpo_optimize_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -69,8 +69,8 @@
                         <plugin name="Eternal Flames">
                             <description>Nordic dungeons will have blue fire. Scary! Best when used without whitelists.</description>
                             <files>
-                                <folder source="BOS\eternal_flames_blue" destination="" priority="0" />
-                                <folder source="BOS\eternal_flames" destination="" priority="0" />
+                                <folder source="configs\bos\eternal_flames_blue" destination="" priority="0" />
+                                <folder source="configs\bos\eternal_flames" destination="" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -79,8 +79,8 @@
                         <plugin name="Nocturnal Flames">
                             <description>Nordic dungeons will have violet fire. Scary! Best when used without whitelists.</description>
                             <files>
-                                <folder source="BOS\eternal_flames_violet" destination="" priority="0" />
-                                <folder source="BOS\eternal_flames" destination="" priority="0" />
+                                <folder source="configs\bos\eternal_flames_violet" destination="" priority="0" />
+                                <folder source="configs\bos\eternal_flames" destination="" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
