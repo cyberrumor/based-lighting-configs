@@ -69,8 +69,8 @@
                         <plugin name="Eternal Flames">
                             <description>Nordic dungeons will have blue fire. Scary! Best when used without whitelists.</description>
                             <files>
-                                <folder source="configs\bos\eternal_flames_blue" destination="" priority="0" />
-                                <folder source="configs\bos\eternal_flames" destination="" priority="0" />
+                                <file source="configs\bos\eternal_flames\EternalFlames_SWAP.ini" destination="EternalFlames_SWAP.ini" priority="0" />
+                                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
                                 <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
                             </files>
                             <typeDescriptor>
@@ -80,8 +80,8 @@
                         <plugin name="Nocturnal Flames">
                             <description>Nordic dungeons will have violet fire. Scary! Best when used without whitelists.</description>
                             <files>
-                                <folder source="configs\bos\eternal_flames_violet" destination="" priority="0" />
-                                <folder source="configs\bos\eternal_flames" destination="" priority="0" />
+                                <file source="configs\bos\eternal_flames\EternalFlamesViolet_SWAP.ini" destination="EternalFlamesViolet_SWAP.ini" priority="0" />
+                                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
                                 <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
                             </files>
                             <typeDescriptor>
