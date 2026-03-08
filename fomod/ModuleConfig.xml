@@ -105,7 +105,7 @@
                         <plugin name="Embers XD">
                             <description>Install no ember meshes. Illuminate nocturnal flames with pink light (instead of violet) to match Embers XD meshes.</description>
                             <files>
-                                <file source="embers\embers_xd\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -115,7 +115,7 @@
                             <description>Install vanilla ember meshes which have no fake glow.</description>
                             <files>
                                 <folder source="meshes" destination="meshes" priority="0"/>
-                                <file source="embers\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -124,7 +124,7 @@
                         <plugin name="None">
                             <description>Install no ember meshes.</description>
                             <files>
-                                <file source="embers\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
