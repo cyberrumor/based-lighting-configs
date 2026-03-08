@@ -114,7 +114,7 @@
                         <plugin name="Embers without light bleed">
                             <description>Install vanilla ember meshes which have no fake glow.</description>
                             <files>
-                                <folder source="embers\no_light_bleed" destination="" priority="0"/>
+                                <folder source="meshes" destination="meshes" priority="0"/>
                                 <file source="embers\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                             </files>
                             <typeDescriptor>
