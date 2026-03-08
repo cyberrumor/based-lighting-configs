@@ -1,0 +1,29 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            20,
+            0,
+            150
+          ],
+          "fade": 1.976,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 386.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\tg09nocturnalfxfirepurple.nif"
+    ]
+  }
+]

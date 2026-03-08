@@ -46,6 +46,32 @@
                         </plugin>
                     </plugins>
                 </group>
+                <group name="Shadows" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Disallow shadows">
+                            <description>LightPlacer configs add lights without shadows.</description>
+                            <files>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                            <conditionFlags>
+                                <flag name="shadows">Off</flag>
+                            </conditionFlags>
+                        </plugin>
+                        <plugin name="Allow shadows">
+                            <description>LightPlacer configs add lights with shadows.</description>
+                            <files>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                            <conditionFlags>
+                                <flag name="shadows">On</flag>
+                            </conditionFlags>
+                        </plugin>
+                    </plugins>
+                </group>
             </optionalFileGroups>
         </installStep>
         <installStep name="Base Object Swapper Configs">
@@ -258,6 +284,7 @@
         <patterns>
             <pattern>
                 <dependencies operator="And">
+                    <flagDependency flag="shadows" value="Off" />
                     <flagDependency flag="embers_xd" value="On" />
                 </dependencies>
                 <files>
@@ -266,10 +293,45 @@
             </pattern>
             <pattern>
                 <dependencies operator="And">
+                    <flagDependency flag="shadows" value="Off" />
                     <flagDependency flag="embers_xd" value="Off" />
                 </dependencies>
                 <files>
                     <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                </files>
+            </pattern>
+            <pattern>
+                <dependencies operator="And">
+                    <flagDependency flag="shadows" value="On" />
+                    <flagDependency flag="embers_xd" value="On" />
+                </dependencies>
+                <files>
+                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_embersxd_shadows.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd_shadows.json" priority="0"/>
+                </files>
+            </pattern>
+            <pattern>
+                <dependencies operator="And">
+                    <flagDependency flag="shadows" value="On" />
+                    <flagDependency flag="embers_xd" value="Off" />
+                </dependencies>
+                <files>
+                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_shadows.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_shadows.json" priority="0"/>
+                </files>
+            </pattern>
+            <pattern>
+                <dependencies operator="And">
+                    <flagDependency flag="shadows" value="On" />
+                </dependencies>
+                <files>
+                    <folder source="configs\lightplacer\shadows" destination="LightPlacer\lpo"/>
+                </files>
+            </pattern>
+            <pattern>
+                <dependencies operator="and">
+                    <flagDependency flag="shadows" value="Off" />
+                </dependencies>
+                <files>
+                    <folder source="configs\lightplacer\no_shadows" destination="LightPlacer\lpo"/>
                 </files>
             </pattern>
         </patterns>

@@ -1,0 +1,30 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 640.0
+        },
+        "points": [
+          [
+            0,
+            25,
+            40
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\common\\removabletorch01.nif",
+      "clutter\\common\\torchpermanent01.nif"
+    ]
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 2.0,
+          "flags": "IgnoreScale|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 4096.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            -1500
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\blackreach\\blackreachsun01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 386.0
+        },
+        "points": [
+          [
+            -790,
+            -190,
+            -700
+          ],
+          [
+            -780,
+            180,
+            -650
+          ],
+          [
+            -750,
+            -300,
+            -650
+          ],
+          [
+            -750,
+            -75,
+            -350
+          ],
+          [
+            -475,
+            -475,
+            -200
+          ],
+          [
+            -450,
+            450,
+            -150
+          ],
+          [
+            -225,
+            -750,
+            -500
+          ],
+          [
+            -125,
+            -775,
+            -400
+          ],
+          [
+            -100,
+            -800,
+            -850
+          ],
+          [
+            -75,
+            800,
+            -775
+          ],
+          [
+            -70,
+            750,
+            -380
+          ],
+          [
+            0,
+            -800,
+            -700
+          ],
+          [
+            0,
+            0,
+            200
+          ],
+          [
+            0,
+            0,
+            425
+          ],
+          [
+            0,
+            800,
+            -750
+          ],
+          [
+            50,
+            800,
+            -650
+          ],
+          [
+            80,
+            750,
+            -370
+          ],
+          [
+            100,
+            -800,
+            -750
+          ],
+          [
+            100,
+            800,
+            -775
+          ],
+          [
+            250,
+            -750,
+            -625
+          ],
+          [
+            300,
+            750,
+            -600
+          ],
+          [
+            450,
+            -450,
+            -150
+          ],
+          [
+            460,
+            460,
+            -175
+          ],
+          [
+            750,
+            -75,
+            -350
+          ],
+          [
+            750,
+            50,
+            -350
+          ],
+          [
+            750,
+            275,
+            -700
+          ],
+          [
+            775,
+            -50,
+            -850
+          ],
+          [
+            800,
+            0,
+            -500
+          ]
+        ]
+      },
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 2048.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            950
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\animated\\astrolabe\\armillary\\dweastrolabearmillary01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 386.0
+        },
+        "points": [
+          [
+            -800,
+            -50,
+            -800
+          ],
+          [
+            -800,
+            -50,
+            -350
+          ],
+          [
+            -800,
+            250,
+            -550
+          ],
+          [
+            -500,
+            500,
+            -175
+          ],
+          [
+            -475,
+            -475,
+            -175
+          ],
+          [
+            -300,
+            -800,
+            -500
+          ],
+          [
+            -100,
+            -800,
+            -450
+          ],
+          [
+            0,
+            -800,
+            -800
+          ],
+          [
+            0,
+            0,
+            200
+          ],
+          [
+            0,
+            0,
+            425
+          ],
+          [
+            100,
+            -775,
+            -400
+          ],
+          [
+            275,
+            -775,
+            -650
+          ],
+          [
+            460,
+            460,
+            -175
+          ],
+          [
+            475,
+            -475,
+            -175
+          ],
+          [
+            750,
+            -250,
+            -575
+          ],
+          [
+            800,
+            -100,
+            -850
+          ],
+          [
+            800,
+            200,
+            -600
+          ]
+        ]
+      },
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 2048.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            950
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\animated\\observatory\\armillary\\dweobservatoryarmillary01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 1024.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            -50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwechandelier01bareon.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.8,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 750.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwechandelier01bareonsputter.nif",
+      "dungeons\\dwemer\\dwechandelier01on.nif",
+      "dungeons\\dwemer\\dwechandelier01onsputter.nif",
+      "dungeons\\dwemer\\dwechandelier01simpleon.nif",
+      "dungeons\\dwemer\\dwechandelier01simpleonsputter.nif",
+      "dungeons\\dwemer\\dwechandelier02onsputter.nif",
+      "dungeons\\dwemer\\dwechandelierextension.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 768.0
+        },
+        "points": [
+          [
+            25,
+            0,
+            25
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwechandelier02on.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            120
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwefloorlanternon.nif",
+      "dungeons\\dwemer\\dwefloorlanternonsputter.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.5,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            60,
+            0,
+            15
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwewallsconce02on.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "points": [
+          [
+            -25,
+            -1,
+            8
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwewallsconcesmall01on.nif",
+      "dungeons\\dwemer\\dwewallsconcesmall01onsputter.nif",
+      "dungeons\\dwemer\\dwewallsconcesmall02on.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 128.0
+        },
+        "points": [
+          [
+            -25,
+            -1,
+            8
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dungeons\\dwemer\\dwewallsconcesmall02onsputter.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 1.5,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 1024.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\fxdwegreenflamecalm.nif"
+    ]
+  }
+]
