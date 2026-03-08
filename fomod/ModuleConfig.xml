@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
     <moduleName>lpo</moduleName>
     <requiredInstallFiles>
-        <folder source="LightPlacer" destination="LightPlacer" />
+        <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer" />
         <folder source="textures" destination="textures" />
         <folder source="particlelights" destination="particlelights" />
         <folder source="SKSE" destination="SKSE" />
