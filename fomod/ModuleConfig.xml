@@ -143,7 +143,7 @@
                         <plugin name="Make carried torches match other fire">
                             <description>Install a plugin that makes light from carried torches match the color of other mortal fire.</description>
                             <files>
-                                <file source="lpo_torch.esp" destination="lpo_torch.esp" priority="0" />
+                                <file source="plugins\lpo_torch.esp" destination="lpo_torch.esp" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
