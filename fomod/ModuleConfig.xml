@@ -158,7 +158,7 @@
                         <plugin name="ELFX">
                             <description>Select this if you'd like to whitelist ELFX lights or ELFX Shadows' lights. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\elfx.ini" destination="LightPlacer\lpo\elfx.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\elfx.ini" destination="LightPlacer\lpo\elfx.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -167,7 +167,7 @@
                         <plugin name="LUX">
                             <description>Select this if you'd like to whitelist lights added by LUX. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them. Note that this does not whitelist Lux Via because Light Placer configs that cover Lux Via are included.</description>
                             <files>
-                                <file source="whitelists\lux.ini" destination="LightPlacer\lpo\lux.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\lux.ini" destination="LightPlacer\lpo\lux.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -176,7 +176,7 @@
                         <plugin name="Realistic Lighting Overhaul">
                             <description>Select this if you'd like to whitelist lights added by Realistic Lighting Overhaul. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\realistic_lighting_overhaul.ini" destination="LightPlacer\lpo\realistic_lighting_overhaul.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\realistic_lighting_overhaul.ini" destination="LightPlacer\lpo\realistic_lighting_overhaul.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -185,7 +185,7 @@
                         <plugin name="Relighting Skyrim">
                             <description>Select this if you'd like to whitelist lights added by Relighting Skyrim. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\relighting_skyrim.ini" destination="LightPlacer\lpo\relighting_skyrim.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\relighting_skyrim.ini" destination="LightPlacer\lpo\relighting_skyrim.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -194,7 +194,7 @@
                         <plugin name="Window Shadows Ultimate">
                             <description>Select this if you'd like to whitelist lights added by Window Shadows Ultimate. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\window_shadows_ultimate.ini" destination="LightPlacer\lpo\window_shadows_ultimate.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\window_shadows_ultimate.ini" destination="LightPlacer\lpo\window_shadows_ultimate.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -203,7 +203,7 @@
                         <plugin name="Window Shadows RT">
                             <description>Select this if you'd like to whitelist lights added by Window Shadows RT. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\window_shadows_rt.ini" destination="LightPlacer\lpo\window_shadows_rt.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\window_shadows_rt.ini" destination="LightPlacer\lpo\window_shadows_rt.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -212,7 +212,7 @@
                         <plugin name="Lanterns of Skyrim">
                             <description>Select this if you'd like to whitelist lights added by Lanterns of Skyrim and Lanterns of Skyrim II. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\lanterns.ini" destination="LightPlacer\lpo\lanterns.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\lanterns.ini" destination="LightPlacer\lpo\lanterns.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -221,7 +221,7 @@
                         <plugin name="Torches Candlelight and Lanterns">
                             <description>Select this if you'd like to whitelist lights added by Torches Candlelight and Lanterns. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
                             <files>
-                                <file source="whitelists\torches_candlelight_and_lanterns.ini" destination="LightPlacer\lpo\torches_candlelight_and_lanterns.ini" priority="0" />
+                                <file source="configs\lightplacer\whitelists\torches_candlelight_and_lanterns.ini" destination="LightPlacer\lpo\torches_candlelight_and_lanterns.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
