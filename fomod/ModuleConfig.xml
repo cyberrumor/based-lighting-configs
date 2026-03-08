@@ -6,6 +6,7 @@
         <folder source="textures" destination="textures" />
         <folder source="configs\particlelights" destination="particlelights" />
         <folder source="SKSE" destination="SKSE" />
+        <file source="configs\bos\lpo\lpo_SWAP.ini" destination="lpo_SWAP.ini" priority="0" />
     </requiredInstallFiles>
     <installSteps order="Explicit">
         <installStep name="LPO">
@@ -69,10 +70,19 @@
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
-                        <plugin name="Overhaul light sources">
-                            <description>Install a bos config which turns on Markarth lights, and extinguishes candles that would otherwise cause light to bleed through walls.</description>
+                        <plugin name="Overhaul Markarth">
+                            <description>Install a bos config which turns on Markarth lighting fixtures.</description>
                             <files>
-                                <file source="configs\bos\lpo\lpo_fixtures_SWAP.ini" destination="lpo_fixtures_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo\lpo_markarth_SWAP.ini" destination="lpo_markarth_SWAP.ini" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="Overhaul Blackreach">
+                            <description>Install a bos config which turns on Blackreach lighting fixtures.</description>
+                            <files>
+                                <file source="configs\bos\lpo\lpo_blackreach_SWAP.ini" destination="lpo_blackreach_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
