@@ -4,7 +4,7 @@
     <requiredInstallFiles>
         <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer" />
         <folder source="textures" destination="textures" />
-        <folder source="particlelights" destination="particlelights" />
+        <folder source="configs\particlelights" destination="particlelights" />
         <folder source="SKSE" destination="SKSE" />
     </requiredInstallFiles>
     <installSteps order="Explicit">
