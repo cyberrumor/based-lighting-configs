@@ -52,24 +52,6 @@
             <optionalFileGroups order="Explicit">
                 <group name="bos" type="SelectAny">
                     <plugins order="Explicit">
-                        <plugin name="Remove unrealistic FX">
-                            <description>Install a bos config which removes ugly glowing orange fog and extraneous mist. Highly recommended if you want to use the Eternal Flames option.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Remove dust FX used for godrays">
-                            <description>Install an overkill bos config which removes potentially ugly dust. Only select this in absence of Window Shadows Ultimate.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
                         <plugin name="Overhaul Markarth">
                             <description>Install a bos config which turns on Markarth lighting fixtures.</description>
                             <files>
@@ -88,10 +70,19 @@
                                 <type name="Optional"/>
                             </typeDescriptor>
                         </plugin>
-                        <plugin name="Optimizations">
-                            <description>Install a bos config which extinguishes a portion of candles in candle clusters. Improves FPS and reduces overexposure.</description>
+                        <plugin name="Remove unrealistic FX">
+                            <description>Install a bos config which removes ugly glowing orange fog and extraneous mist.</description>
                             <files>
-                                <file source="configs\bos\lpo\lpo_optimize_SWAP.ini" destination="lpo_optimize_SWAP.ini" priority="0" />
+                                <file source="configs\bos\lpo\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="Remove dust FX used for godrays">
+                            <description>Install an overkill bos config which removes potentially ugly dust.</description>
+                            <files>
+                                <file source="configs\bos\lpo\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
