@@ -97,7 +97,7 @@
                             <files>
                                 <file source="configs\bos\eternal_flames\EternalFlames_SWAP.ini" destination="EternalFlames_SWAP.ini" priority="0" />
                                 <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
-                                <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
+                                <folder source="meshes" destination="meshes" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -108,7 +108,7 @@
                             <files>
                                 <file source="configs\bos\eternal_flames\EternalFlamesViolet_SWAP.ini" destination="EternalFlamesViolet_SWAP.ini" priority="0" />
                                 <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
-                                <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
+                                <folder source="meshes" destination="meshes" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -126,37 +126,31 @@
                 </group>
             </optionalFileGroups>
         </installStep>
-        <installStep name="Optional Meshes">
+        <installStep name="Compatibility">
             <optionalFileGroups order="Explicit">
-                <group name="Embers" type="SelectExactlyOne">
+                <group name="Embers XD" type="SelectExactlyOne">
                     <plugins order="Explicit">
                         <plugin name="Embers XD">
-                            <description>Install no ember meshes. Illuminate nocturnal flames with pink light (instead of violet) to match Embers XD meshes.</description>
+                            <description>Attach pink light to nocturnal flames.</description>
                             <files>
-                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
                             </typeDescriptor>
-                        </plugin>
-                        <plugin name="Embers without light bleed">
-                            <description>Install vanilla ember meshes which have no fake glow.</description>
-                            <files>
-                                <folder source="meshes\effects" destination="meshes\effects" priority="0"/>
-                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
+                            <conditionFlags>
+                                <flag name="embers_xd">On</flag>
+                            </conditionFlags>
                         </plugin>
                         <plugin name="None">
-                            <description>Install no ember meshes.</description>
+                            <description>Attach violet light to nocturnal flames.</description>
                             <files>
-                                <file source="configs\lightplacer\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
                             </typeDescriptor>
+                            <conditionFlags>
+                                <flag name="embers_xd">Off</flag>
+                            </conditionFlags>
                         </plugin>
                     </plugins>
                 </group>
@@ -260,4 +254,24 @@
             </optionalFileGroups>
         </installStep>
     </installSteps>
+    <conditionalFileInstalls>
+        <patterns>
+            <pattern>
+                <dependencies operator="And">
+                    <flagDependency flag="embers_xd" value="On" />
+                </dependencies>
+                <files>
+                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
+                </files>
+            </pattern>
+            <pattern>
+                <dependencies operator="And">
+                    <flagDependency flag="embers_xd" value="Off" />
+                </dependencies>
+                <files>
+                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                </files>
+            </pattern>
+        </patterns>
+    </conditionalFileInstalls>
 </config>
