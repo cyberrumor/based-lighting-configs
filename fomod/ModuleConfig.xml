@@ -71,6 +71,7 @@
                             <files>
                                 <folder source="configs\bos\eternal_flames_blue" destination="" priority="0" />
                                 <folder source="configs\bos\eternal_flames" destination="" priority="0" />
+                                <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -81,6 +82,7 @@
                             <files>
                                 <folder source="configs\bos\eternal_flames_violet" destination="" priority="0" />
                                 <folder source="configs\bos\eternal_flames" destination="" priority="0" />
+                                <folder source="meshes\dungeons" destination="meshes\dungeons" priority="0" />
                             </files>
                             <typeDescriptor>
                                 <type name="Optional"/>
@@ -114,7 +116,7 @@
                         <plugin name="Embers without light bleed">
                             <description>Install vanilla ember meshes which have no fake glow.</description>
                             <files>
-                                <folder source="meshes" destination="meshes" priority="0"/>
+                                <folder source="meshes\effects" destination="meshes\effects" priority="0"/>
                                 <file source="configs\lightplacer\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                             </files>
                             <typeDescriptor>
