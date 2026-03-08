@@ -22,6 +22,31 @@
                 </group>
             </optionalFileGroups>
         </installStep>
+        <installStep name="LightPlacer Config Options">
+            <optionalFileGroups order="Explicit">
+                <group name="Windows" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="None">
+                            <description>No window lights. Windows will be dark unless you use something like Window Shadows Ultimate.</description>
+                            <files>
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="Interior window lights">
+                            <description>Add shadowless lights to interior windows, compensating for disabled vanilla window lights.</description>
+                            <files>
+                                <folder source="configs\lightplacer\windows" destination="LightPlacer\lpo" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
         <installStep name="Base Object Swapper Configs">
             <optionalFileGroups order="Explicit">
                 <group name="bos" type="SelectAny">
