@@ -56,17 +56,6 @@
   {
     "lights": [
       {
-        "data": {
-          "color": [
-            255,
-            255,
-            255
-          ],
-          "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 256.0
-        },
         "blackList": [
           "0xAEE98",
           "0xAEE9C",
@@ -79,6 +68,17 @@
           "0xAEE7F",
           "0xAEE85"
         ],
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
         "points": [
           [
             0,

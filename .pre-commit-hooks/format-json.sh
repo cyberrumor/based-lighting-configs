@@ -2,7 +2,7 @@
 
 failed=0
 for file in "$@"; do
-    if ! jq . "$file" > "$file.tmp" 2>/dev/null; then
+    if ! jq --sort-keys . "$file" > "$file.tmp" 2>/dev/null; then
         echo "error: $file is not valid JSON"
         rm -f "$file.tmp"
         failed=1

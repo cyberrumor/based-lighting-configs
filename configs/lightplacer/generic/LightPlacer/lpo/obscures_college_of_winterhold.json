@@ -2,33 +2,6 @@
   {
     "lights": [
       {
-        "nodes": [
-          "Flame01",
-          "Flame02",
-          "Flame03",
-          "Flame04",
-          "Flame05",
-          "Flame06",
-          "Flame07",
-          "Flame08",
-          "Flame09",
-          "Flame10",
-          "Flame11",
-          "AddOnNode49",
-          "AddOnNode49@#0",
-          "AddOnNode49@#1"
-        ],
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.2,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 386.0
-        },
         "blackList": [
           "0x1818F0~OCW_Obscure's_CollegeofWinterhold.esp",
           "0x1818F2~OCW_Obscure's_CollegeofWinterhold.esp",
@@ -63,6 +36,33 @@
           "0x6FD3A4~OCW_Obscure's_CollegeofWinterhold.esp",
           "0x6FD3A6~OCW_Obscure's_CollegeofWinterhold.esp",
           "0x6FD3A8~OCW_Obscure's_CollegeofWinterhold.esp"
+        ],
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.2,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 386.0
+        },
+        "nodes": [
+          "Flame01",
+          "Flame02",
+          "Flame03",
+          "Flame04",
+          "Flame05",
+          "Flame06",
+          "Flame07",
+          "Flame08",
+          "Flame09",
+          "Flame10",
+          "Flame11",
+          "AddOnNode49",
+          "AddOnNode49@#0",
+          "AddOnNode49@#1"
         ]
       }
     ],

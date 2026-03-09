@@ -9,56 +9,56 @@
             63
           ],
           "fade": 0.7,
-          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 512.0,
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.0,
-                "value": 0.7,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.7
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.4,
-                "value": 0.65,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.65
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.9,
-                "value": 0.675,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.675
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 1.4,
-                "value": 0.725,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.725
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 1.9,
-                "value": 0.7,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.7
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 2.4,
-                "value": 0.675,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.675
               },
               {
-                "time": 3.0,
-                "value": 0.7,
+                "backward": 0.0,
                 "forward": 0.0,
-                "backward": 0.0
+                "time": 3.0,
+                "value": 0.7
               }
             ]
-          }
+          },
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
         },
         "points": [
           [
@@ -102,14 +102,66 @@
     ]
   },
   {
-    "models": [
-      "furniture\\enchantingworkbench.nif",
-      "furniture\\enchantingworkstation.nif",
-      "furniture\\workbenches\\enchantingworkbench01.nif",
-      "furniture\\workbenches\\enchantingworkstation01.nif"
-    ],
     "lights": [
       {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.1,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 0.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.4,
+                "value": 0.115
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.9,
+                "value": 0.09
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 0.12
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.9,
+                "value": 0.085
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.4,
+                "value": 0.11
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 3.0,
+                "value": 0.1
+              }
+            ]
+          },
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
         "nodes": [
           "AddOnNode",
           "AddOnNode49",
@@ -143,6 +195,36 @@
           "EnchantingWorkbench01:92",
           "EnchantingWorkbench01:93",
           "EnchantingWorkbench01:94"
+        ]
+      }
+    ],
+    "models": [
+      "furniture\\enchantingworkbench.nif",
+      "furniture\\enchantingworkstation.nif",
+      "furniture\\workbenches\\enchantingworkbench01.nif",
+      "furniture\\workbenches\\enchantingworkstation01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "blackList": [
+          "0x1818E4~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818E5~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818EA~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818EB~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818EC~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818ED~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818EE~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818EF~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F0~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F1~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F2~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F3~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F4~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F6~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F8~OCW_Obscure's_CollegeofWinterhold.esp",
+          "0x1818F9~OCW_Obscure's_CollegeofWinterhold.esp"
         ],
         "data": {
           "color": [
@@ -150,62 +232,74 @@
             140,
             63
           ],
-          "fade": 0.1,
-          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 256.0,
+          "fade": 0.2,
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.0,
-                "value": 0.1,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.2
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.4,
-                "value": 0.115,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.215
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 0.9,
-                "value": 0.09,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.19
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 1.4,
-                "value": 0.12,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.22
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 1.9,
-                "value": 0.085,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.185
               },
               {
+                "backward": 0.0,
+                "forward": 0.0,
                 "time": 2.4,
-                "value": 0.11,
-                "forward": 0.0,
-                "backward": 0.0
+                "value": 0.21
               },
               {
-                "time": 3.0,
-                "value": 0.1,
+                "backward": 0.0,
                 "forward": 0.0,
-                "backward": 0.0
+                "time": 3.0,
+                "value": 0.2
               }
             ]
-          }
-        }
+          },
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "nodes": [
+          "AddOnNode49",
+          "AddOnNode49@#0",
+          "AddOnNode49@#1",
+          "AddOnNode49@#2",
+          "AddOnNode49@#3",
+          "AddOnNode49@#4",
+          "AddOnNode49@#5",
+          "AddOnNode49@#6",
+          "AddOnNode50",
+          "AddOnNode51",
+          "AddOnNode52",
+          "Candleflame"
+        ]
       }
-    ]
-  },
-  {
+    ],
     "models": [
       "bscyrodiil\\clutter\\imperial\\impcandelabracandle01.nif",
       "bscyrodiil\\clutter\\imperial\\impwallsconcecandle01.nif",
@@ -383,112 +477,11 @@
       "lilamue\\clutter\\dishes\\silver\\lmsilvercandlesstatic01var.nif",
       "lilamue\\clutter\\dishes\\silver\\lmsilvercandlesstatic02.nif",
       "smim\\moveablelantern_smim.nif"
-    ],
-    "lights": [
-      {
-        "nodes": [
-          "AddOnNode49",
-          "AddOnNode49@#0",
-          "AddOnNode49@#1",
-          "AddOnNode49@#2",
-          "AddOnNode49@#3",
-          "AddOnNode49@#4",
-          "AddOnNode49@#5",
-          "AddOnNode49@#6",
-          "AddOnNode50",
-          "AddOnNode51",
-          "AddOnNode52",
-          "Candleflame"
-        ],
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.2,
-          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 256.0,
-          "fadeController": {
-            "interpolation": "Linear",
-            "keys": [
-              {
-                "time": 0.0,
-                "value": 0.2,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 0.4,
-                "value": 0.215,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 0.9,
-                "value": 0.19,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 1.4,
-                "value": 0.22,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 1.9,
-                "value": 0.185,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 2.4,
-                "value": 0.21,
-                "forward": 0.0,
-                "backward": 0.0
-              },
-              {
-                "time": 3.0,
-                "value": 0.2,
-                "forward": 0.0,
-                "backward": 0.0
-              }
-            ]
-          }
-        },
-        "blackList": [
-          "0x1818E4~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818E5~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818EA~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818EB~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818EC~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818ED~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818EE~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818EF~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F0~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F1~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F2~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F3~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F4~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F6~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F8~OCW_Obscure's_CollegeofWinterhold.esp",
-          "0x1818F9~OCW_Obscure's_CollegeofWinterhold.esp"
-        ]
-      }
     ]
   },
   {
     "lights": [
       {
-        "points": [
-          [
-            0,
-            0,
-            200
-          ]
-        ],
         "data": {
           "color": [
             226,
@@ -499,16 +492,16 @@
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 512.0
-        }
-      },
-      {
+        },
         "points": [
           [
             0,
             0,
-            50
+            200
           ]
-        ],
+        ]
+      },
+      {
         "data": {
           "color": [
             226,
@@ -519,7 +512,14 @@
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0
-        }
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
       }
     ],
     "models": [
@@ -529,13 +529,6 @@
   {
     "lights": [
       {
-        "points": [
-          [
-            0,
-            0,
-            125
-          ]
-        ],
         "data": {
           "color": [
             226,
@@ -546,7 +539,14 @@
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 512.0
-        }
+        },
+        "points": [
+          [
+            0,
+            0,
+            125
+          ]
+        ]
       }
     ],
     "models": [

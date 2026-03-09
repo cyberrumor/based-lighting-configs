@@ -1,9 +1,5 @@
 [
   {
-    "models": [
-      "clutter\\blackreach\\blackreachbush01.nif",
-      "clutter\\blackreach\\blackreachbush02.nif"
-    ],
     "lights": [
       {
         "data": {
@@ -25,6 +21,10 @@
           ]
         ]
       }
+    ],
+    "models": [
+      "clutter\\blackreach\\blackreachbush01.nif",
+      "clutter\\blackreach\\blackreachbush02.nif"
     ]
   },
   {
