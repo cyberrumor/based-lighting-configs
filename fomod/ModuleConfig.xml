@@ -288,7 +288,7 @@
                     <flagDependency flag="embers_xd" value="On" />
                 </dependencies>
                 <files>
-                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
+                    <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
                 </files>
             </pattern>
             <pattern>
@@ -297,7 +297,7 @@
                     <flagDependency flag="embers_xd" value="Off" />
                 </dependencies>
                 <files>
-                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+                    <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                 </files>
             </pattern>
             <pattern>
@@ -306,7 +306,7 @@
                     <flagDependency flag="embers_xd" value="On" />
                 </dependencies>
                 <files>
-                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_embersxd_shadows.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd_shadows.json" priority="0"/>
+                    <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
                 </files>
             </pattern>
             <pattern>
@@ -315,7 +315,7 @@
                     <flagDependency flag="embers_xd" value="Off" />
                 </dependencies>
                 <files>
-                    <file source="configs\lightplacer\nocturnal\tg09nocturnalfxfirepurple_shadows.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_shadows.json" priority="0"/>
+                    <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
                 </files>
             </pattern>
             <pattern>
