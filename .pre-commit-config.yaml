@@ -52,3 +52,9 @@ repos:
         language: script
         types: [xml]
         files: fomod/ModuleConfig\.xml$
+      - id: check-fomod-file-destinations
+        name: check fomod file source and destination filenames match
+        entry: .pre-commit/check-fomod-file-destinations.sh
+        language: script
+        types: [xml]
+        files: fomod/ModuleConfig\.xml$
