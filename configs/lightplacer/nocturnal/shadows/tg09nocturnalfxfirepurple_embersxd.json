@@ -4,11 +4,11 @@
       {
         "data": {
           "color": [
-            226,
-            140,
-            63
+            234,
+            74,
+            249
           ],
-          "fade": 1.0,
+          "fade": 0.6,
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
@@ -88,20 +88,19 @@
           },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
-          "radius": 640.0
+          "radius": 386.0
         },
         "points": [
           [
             0,
-            25,
-            40
+            0,
+            50
           ]
         ]
       }
     ],
     "models": [
-      "clutter\\common\\removabletorch01.nif",
-      "clutter\\common\\torchpermanent01.nif"
+      "effects\\tg09nocturnalfxfirepurple.nif"
     ]
   }
 ]

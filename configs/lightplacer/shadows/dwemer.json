@@ -371,6 +371,33 @@
             133,
             137
           ],
+          "fade": 1.5,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 1024.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\fxdwegreenflamecalm.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
           "fade": 1.8,
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
           "light": "DefaultSunlight01NS",
@@ -531,33 +558,6 @@
     ],
     "models": [
       "dungeons\\dwemer\\dwewallsconcesmall02onsputter.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            39,
-            133,
-            137
-          ],
-          "fade": 1.5,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 1024.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            0
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "effects\\fxdwegreenflamecalm.nif"
     ]
   }
 ]

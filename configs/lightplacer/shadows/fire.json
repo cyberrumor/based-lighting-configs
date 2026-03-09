@@ -8,6 +8,554 @@
             140,
             63
           ],
+          "fade": 0.1,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 64.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            -5
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "traps\\oiltrap\\oiltrap01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.88,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            500
+          ]
+        ]
+      },
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.88,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 768.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            500
+          ]
+        ]
+      },
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.4,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 2048.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            500
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\giant\\giantcampfire01burning.nif",
+      "clutter\\giant\\giantcampfire01burningnoland.nif",
+      "clutter\\giant\\wbbcfgiantcampfire01burning.nif",
+      "clutter\\giant\\wbbcfgiantcampfire01burningnoland.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "blackList": [
+          "0x0cb94a",
+          "0x000e17"
+        ],
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 1.5,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 384.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\woodfires\\campfire01burning.nif",
+      "clutter\\woodfires\\campfire01landburning.nif",
+      "clutter\\woodfires\\cookingstand01.nif",
+      "clutter\\woodfires\\fireplacewood01burning.nif",
+      "clutter\\woodfires\\wbbcfcampfire01burning.nif",
+      "clutter\\woodfires\\wbbcfcampfire01landburning.nif",
+      "rest by campfire\\rbc_campfire_burning.nif",
+      "rest by campfire\\rbc_campfire_landburning.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            30,
+            50,
+            180
+          ],
+          "fade": 1.0,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 386.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\c06fxfirebluewithembersheavy.nif",
+      "dlc01\\effects\\dlc1falmervalleybrazierlight.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
           "fade": 1.0,
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
@@ -39,74 +587,104 @@
             140,
             63
           ],
-          "fade": 0.88,
+          "fade": 1.5,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 256.0
         },
         "points": [
           [
             0,
             0,
-            500
-          ]
-        ]
-      },
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.88,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 768.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            500
-          ]
-        ]
-      },
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.4,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 2048.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            500
+            10
           ]
         ]
       }
     ],
     "models": [
-      "clutter\\giant\\giantcampfire01burning.nif",
-      "clutter\\giant\\giantcampfire01burningnoland.nif",
-      "clutter\\giant\\wbbcfgiantcampfire01burning.nif",
-      "clutter\\giant\\wbbcfgiantcampfire01burningnoland.nif"
+      "dlc02\\effects\\telvannitorchlightfx.nif"
     ]
   },
   {
     "lights": [
       {
-        "blackList": [
-          "0x000e17",
-          "0x0cb94a"
-        ],
         "data": {
           "color": [
             226,
@@ -114,6 +692,217 @@
             63
           ],
           "fade": 1.5,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dlc02\\landscape\\dlc2firecrater02.nif",
+      "dlc02\\landscape\\dlc2firecraterround.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 128.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dlc02\\landscape\\dlc2fxsmokingplant.nif",
+      "dlc02\\landscape\\dlc2fxsmokingplant02.nif",
+      "dlc02\\landscape\\dlc2fxsmokingplantwithdirt.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.5,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
           "radius": 384.0
@@ -122,20 +911,40 @@
           [
             0,
             0,
-            75
+            50
           ]
         ]
       }
     ],
     "models": [
-      "clutter\\woodfires\\campfire01burning.nif",
-      "clutter\\woodfires\\campfire01landburning.nif",
-      "clutter\\woodfires\\cookingstand01.nif",
-      "clutter\\woodfires\\fireplacewood01burning.nif",
-      "clutter\\woodfires\\wbbcfcampfire01burning.nif",
-      "clutter\\woodfires\\wbbcfcampfire01landburning.nif",
-      "rest by campfire\\rbc_campfire_burning.nif",
-      "rest by campfire\\rbc_campfire_landburning.nif"
+      "dlc02\\landscape\\trees\\dlc2treepineforestlogsm01flaming01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 384.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dlc02\\landscape\\trees\\dlc2treepineforestlogsm01smoking01.nif"
     ]
   },
   {
@@ -146,29 +955,29 @@
           "0x0c83a6",
           "0x0c8437",
           "0x0c8438",
+          "0x0cb948",
           "0x0c8eef",
           "0x0c8ef0",
-          "0x0cb948",
+          "0x12074b62",
+          "0x12074b63",
+          "0x12074b6a",
+          "0x12074b6b",
+          "0x12074b66",
+          "0x12074b67",
+          "0x1206fa5b",
+          "0x1206fa5d",
+          "0x1206a95a",
           "0x1206a957",
           "0x1206a958",
           "0x1206a959",
-          "0x1206a95a",
-          "0x1206fa5b",
-          "0x1206fa5d",
-          "0x12074b62",
-          "0x12074b63",
-          "0x12074b66",
-          "0x12074b67",
-          "0x12074b6a",
-          "0x12074b6b",
+          "0x120c5bb2",
+          "0x12093195",
+          "0x12093196",
           "0x1207ed76",
           "0x12093191",
           "0x12093192",
           "0x12093193",
-          "0x12093194",
-          "0x12093195",
-          "0x12093196",
-          "0x120c5bb2"
+          "0x12093194"
         ],
         "data": {
           "color": [
@@ -177,6 +986,83 @@
             63
           ],
           "fade": 0.88,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
           "radius": 384.0
@@ -243,145 +1129,6 @@
       {
         "data": {
           "color": [
-            30,
-            50,
-            180
-          ],
-          "fade": 1.0,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 386.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            50
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "dlc01\\effects\\dlc1falmervalleybrazierlight.nif",
-      "effects\\c06fxfirebluewithembersheavy.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 1.5,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 256.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            10
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "dlc02\\effects\\telvannitorchlightfx.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 1.5,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 256.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            50
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "dlc02\\landscape\\dlc2firecrater02.nif",
-      "dlc02\\landscape\\dlc2firecraterround.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.25,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 128.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            50
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "dlc02\\landscape\\dlc2fxsmokingplant.nif",
-      "dlc02\\landscape\\dlc2fxsmokingplant02.nif",
-      "dlc02\\landscape\\dlc2fxsmokingplantwithdirt.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.5,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 384.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            50
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "dlc02\\landscape\\trees\\dlc2treepineforestlogsm01flaming01.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
             226,
             140,
             63
@@ -401,7 +1148,6 @@
       }
     ],
     "models": [
-      "dlc02\\landscape\\trees\\dlc2treepineforestlogsm01smoking01.nif",
       "effects\\fxfirewithembers02toggle.nif"
     ]
   },
@@ -502,33 +1248,6 @@
     ],
     "models": [
       "furniture\\smeltermarker.nif"
-    ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.1,
-          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
-          "light": "DefaultSunlight01NS",
-          "radius": 64.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            -5
-          ]
-        ]
-      }
-    ],
-    "models": [
-      "traps\\oiltrap\\oiltrap01.nif"
     ]
   }
 ]
