@@ -33,6 +33,13 @@ cat Data/lightplacer/lpo/* | jq '.[].models' | sort | uniq
     https://github.com/doodlum/skyrim-community-shaders/wiki
   )
 
+## Development Setup
+
+```
+sudo apt install pre-commit jq
+pre-commit install
+```
+
 ## Thanks
 
 Thanks a bunch to powerofthree for making Light Placer so I could write configs
