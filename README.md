@@ -35,8 +35,10 @@ cat Data/lightplacer/lpo/* | jq '.[].models' | sort | uniq
 
 ## Development Setup
 
+LPO uses pre-commit hooks to generate and format configs.
+
 ```
-sudo apt install pre-commit jq
+sudo apt install pre-commit jq libxml2
 pre-commit install
 ```
 

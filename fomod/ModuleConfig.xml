@@ -1,339 +1,340 @@
+<?xml version="1.0"?>
 <!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
-    <moduleName>lpo</moduleName>
-    <requiredInstallFiles>
-        <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer" />
-        <folder source="textures" destination="textures" />
-        <folder source="configs\particlelights" destination="particlelights" />
-        <folder source="SKSE" destination="SKSE" />
-        <file source="configs\bos\lpo\lpo_SWAP.ini" destination="lpo_SWAP.ini" priority="0" />
-    </requiredInstallFiles>
-    <installSteps order="Explicit">
-        <installStep name="LPO">
-            <optionalFileGroups order="Explicit">
-                <group name="Light Placer Configs" type="SelectExactlyOne">
-                    <plugins order="Explicit">
-                        <plugin name="LPO Core">
-                            <description>Remove all lights, then attach omnilights only to models that should reasonably provide illumination.</description>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-        <installStep name="LightPlacer Config Options">
-            <optionalFileGroups order="Explicit">
-                <group name="Windows" type="SelectExactlyOne">
-                    <plugins order="Explicit">
-                        <plugin name="None">
-                            <description>No window lights. Windows will be dark unless you use something like Window Shadows Ultimate.</description>
-                            <files>
+  <moduleName>lpo</moduleName>
+  <requiredInstallFiles>
+    <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer"/>
+    <folder source="textures" destination="textures"/>
+    <folder source="configs\particlelights" destination="particlelights"/>
+    <folder source="SKSE" destination="SKSE"/>
+    <file source="configs\bos\lpo\lpo_SWAP.ini" destination="lpo_SWAP.ini" priority="0"/>
+  </requiredInstallFiles>
+  <installSteps order="Explicit">
+    <installStep name="LPO">
+      <optionalFileGroups order="Explicit">
+        <group name="Light Placer Configs" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="LPO Core">
+              <description>Remove all lights, then attach omnilights only to models that should reasonably provide illumination.</description>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="LightPlacer Config Options">
+      <optionalFileGroups order="Explicit">
+        <group name="Windows" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="None">
+              <description>No window lights. Windows will be dark unless you use something like Window Shadows Ultimate.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Interior window lights">
-                            <description>Add shadowless lights to interior windows, compensating for disabled vanilla window lights.</description>
-                            <files>
-                                <folder source="configs\lightplacer\windows" destination="LightPlacer\lpo" />
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Interior window lights">
+              <description>Add shadowless lights to interior windows, compensating for disabled vanilla window lights.</description>
+              <files>
+                <folder source="configs\lightplacer\windows" destination="LightPlacer\lpo"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Shadows" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Disallow shadows">
+              <description>LightPlacer configs add lights without shadows.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-                <group name="Shadows" type="SelectExactlyOne">
-                    <plugins order="Explicit">
-                        <plugin name="Disallow shadows">
-                            <description>LightPlacer configs add lights without shadows.</description>
-                            <files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+              <conditionFlags>
+                <flag name="shadows">Off</flag>
+              </conditionFlags>
+            </plugin>
+            <plugin name="Allow shadows">
+              <description>LightPlacer configs add lights with shadows.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                            <conditionFlags>
-                                <flag name="shadows">Off</flag>
-                            </conditionFlags>
-                        </plugin>
-                        <plugin name="Allow shadows">
-                            <description>LightPlacer configs add lights with shadows.</description>
-                            <files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+              <conditionFlags>
+                <flag name="shadows">On</flag>
+              </conditionFlags>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="Base Object Swapper Configs">
+      <optionalFileGroups order="Explicit">
+        <group name="bos" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Overhaul Markarth">
+              <description>Install a bos config which turns on Markarth lighting fixtures.</description>
+              <files>
+                <file source="configs\bos\lpo\lpo_markarth_SWAP.ini" destination="lpo_markarth_SWAP.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Overhaul Blackreach">
+              <description>Install a bos config which turns on Blackreach lighting fixtures.</description>
+              <files>
+                <file source="configs\bos\lpo\lpo_blackreach_SWAP.ini" destination="lpo_blackreach_SWAP.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Remove unrealistic FX">
+              <description>Install a bos config which removes ugly glowing orange fog and extraneous mist.</description>
+              <files>
+                <file source="configs\bos\lpo\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Remove dust FX used for godrays">
+              <description>Install an overkill bos config which removes potentially ugly dust.</description>
+              <files>
+                <file source="configs\bos\lpo\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Nordic Ruin Flames" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Eternal Flames">
+              <description>Nordic dungeons will have blue fire. Scary! Best when used without whitelists.</description>
+              <files>
+                <file source="configs\bos\eternal_flames\EternalFlames_SWAP.ini" destination="EternalFlames_SWAP.ini" priority="0"/>
+                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0"/>
+                <folder source="meshes" destination="meshes" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Nocturnal Flames">
+              <description>Nordic dungeons will have violet fire. Scary! Best when used without whitelists.</description>
+              <files>
+                <file source="configs\bos\eternal_flames\EternalFlamesViolet_SWAP.ini" destination="EternalFlamesViolet_SWAP.ini" priority="0"/>
+                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0"/>
+                <folder source="meshes" destination="meshes" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="None">
+              <description>Nordic dungeons will have mortal fire. Vanilla.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                            <conditionFlags>
-                                <flag name="shadows">On</flag>
-                            </conditionFlags>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-        <installStep name="Base Object Swapper Configs">
-            <optionalFileGroups order="Explicit">
-                <group name="bos" type="SelectAny">
-                    <plugins order="Explicit">
-                        <plugin name="Overhaul Markarth">
-                            <description>Install a bos config which turns on Markarth lighting fixtures.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_markarth_SWAP.ini" destination="lpo_markarth_SWAP.ini" priority="0" />
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="Compatibility">
+      <optionalFileGroups order="Explicit">
+        <group name="Embers XD" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Embers XD">
+              <description>Attach pink light to nocturnal flames.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Overhaul Blackreach">
-                            <description>Install a bos config which turns on Blackreach lighting fixtures.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_blackreach_SWAP.ini" destination="lpo_blackreach_SWAP.ini" priority="0" />
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+              <conditionFlags>
+                <flag name="embers_xd">On</flag>
+              </conditionFlags>
+            </plugin>
+            <plugin name="None">
+              <description>Attach violet light to nocturnal flames.</description>
+              <files>
                             </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Remove unrealistic FX">
-                            <description>Install a bos config which removes ugly glowing orange fog and extraneous mist.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_fx_SWAP.ini" destination="lpo_fx_SWAP.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Remove dust FX used for godrays">
-                            <description>Install an overkill bos config which removes potentially ugly dust.</description>
-                            <files>
-                                <file source="configs\bos\lpo\lpo_fx_dust_SWAP.ini" destination="lpo_fx_dust_SWAP.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-                <group name="Nordic Ruin Flames" type="SelectExactlyOne">
-                    <plugins order="Explicit">
-                        <plugin name="Eternal Flames">
-                            <description>Nordic dungeons will have blue fire. Scary! Best when used without whitelists.</description>
-                            <files>
-                                <file source="configs\bos\eternal_flames\EternalFlames_SWAP.ini" destination="EternalFlames_SWAP.ini" priority="0" />
-                                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
-                                <folder source="meshes" destination="meshes" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Nocturnal Flames">
-                            <description>Nordic dungeons will have violet fire. Scary! Best when used without whitelists.</description>
-                            <files>
-                                <file source="configs\bos\eternal_flames\EternalFlamesViolet_SWAP.ini" destination="EternalFlamesViolet_SWAP.ini" priority="0" />
-                                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0" />
-                                <folder source="meshes" destination="meshes" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="None">
-                            <description>Nordic dungeons will have mortal fire. Vanilla.</description>
-                            <files>
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-        <installStep name="Compatibility">
-            <optionalFileGroups order="Explicit">
-                <group name="Embers XD" type="SelectExactlyOne">
-                    <plugins order="Explicit">
-                        <plugin name="Embers XD">
-                            <description>Attach pink light to nocturnal flames.</description>
-                            <files>
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                            <conditionFlags>
-                                <flag name="embers_xd">On</flag>
-                            </conditionFlags>
-                        </plugin>
-                        <plugin name="None">
-                            <description>Attach violet light to nocturnal flames.</description>
-                            <files>
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                            <conditionFlags>
-                                <flag name="embers_xd">Off</flag>
-                            </conditionFlags>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-        <installStep name="Carried Lights">
-            <optionalFileGroups order="Explicit">
-                <group name="Torches" type="SelectAny">
-                    <plugins order="Explicit">
-                        <plugin name="Make carried torches match other fire">
-                            <description>Install a plugin that makes light from carried torches match the color of other mortal fire.</description>
-                            <files>
-                                <file source="plugins\lpo_torch.esp" destination="lpo_torch.esp" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-        <installStep name="Whitelists">
-            <optionalFileGroups order="Explicit">
-                <group name="whitelists" type="SelectAny">
-                    <plugins order="Explicit">
-                        <plugin name="ELFX">
-                            <description>Select this if you'd like to whitelist ELFX lights or ELFX Shadows' lights. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\elfx.ini" destination="LightPlacer\lpo\elfx.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="LUX">
-                            <description>Select this if you'd like to whitelist lights added by LUX. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them. Note that this does not whitelist Lux Via because Light Placer configs that cover Lux Via are included.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\lux.ini" destination="LightPlacer\lpo\lux.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Realistic Lighting Overhaul">
-                            <description>Select this if you'd like to whitelist lights added by Realistic Lighting Overhaul. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\realistic_lighting_overhaul.ini" destination="LightPlacer\lpo\realistic_lighting_overhaul.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Relighting Skyrim">
-                            <description>Select this if you'd like to whitelist lights added by Relighting Skyrim. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\relighting_skyrim.ini" destination="LightPlacer\lpo\relighting_skyrim.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Window Shadows Ultimate">
-                            <description>Select this if you'd like to whitelist lights added by Window Shadows Ultimate. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\window_shadows_ultimate.ini" destination="LightPlacer\lpo\window_shadows_ultimate.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Window Shadows RT">
-                            <description>Select this if you'd like to whitelist lights added by Window Shadows RT. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\window_shadows_rt.ini" destination="LightPlacer\lpo\window_shadows_rt.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Lanterns of Skyrim">
-                            <description>Select this if you'd like to whitelist lights added by Lanterns of Skyrim and Lanterns of Skyrim II. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\lanterns.ini" destination="LightPlacer\lpo\lanterns.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                        <plugin name="Torches Candlelight and Lanterns">
-                            <description>Select this if you'd like to whitelist lights added by Torches Candlelight and Lanterns. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
-                            <files>
-                                <file source="configs\lightplacer\whitelists\torches_candlelight_and_lanterns.ini" destination="LightPlacer\lpo\torches_candlelight_and_lanterns.ini" priority="0" />
-                            </files>
-                            <typeDescriptor>
-                                <type name="Optional"/>
-                            </typeDescriptor>
-                        </plugin>
-                    </plugins>
-                </group>
-            </optionalFileGroups>
-        </installStep>
-    </installSteps>
-    <conditionalFileInstalls>
-        <patterns>
-            <pattern>
-                <dependencies operator="And">
-                    <flagDependency flag="shadows" value="Off" />
-                    <flagDependency flag="embers_xd" value="On" />
-                </dependencies>
-                <files>
-                    <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
-                </files>
-            </pattern>
-            <pattern>
-                <dependencies operator="And">
-                    <flagDependency flag="shadows" value="Off" />
-                    <flagDependency flag="embers_xd" value="Off" />
-                </dependencies>
-                <files>
-                    <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
-                </files>
-            </pattern>
-            <pattern>
-                <dependencies operator="And">
-                    <flagDependency flag="shadows" value="On" />
-                    <flagDependency flag="embers_xd" value="On" />
-                </dependencies>
-                <files>
-                    <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
-                </files>
-            </pattern>
-            <pattern>
-                <dependencies operator="And">
-                    <flagDependency flag="shadows" value="On" />
-                    <flagDependency flag="embers_xd" value="Off" />
-                </dependencies>
-                <files>
-                    <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
-                </files>
-            </pattern>
-            <pattern>
-                <dependencies operator="And">
-                    <flagDependency flag="shadows" value="On" />
-                </dependencies>
-                <files>
-                    <folder source="configs\lightplacer\shadows" destination="LightPlacer\lpo"/>
-                </files>
-            </pattern>
-            <pattern>
-                <dependencies operator="and">
-                    <flagDependency flag="shadows" value="Off" />
-                </dependencies>
-                <files>
-                    <folder source="configs\lightplacer\no_shadows" destination="LightPlacer\lpo"/>
-                </files>
-            </pattern>
-        </patterns>
-    </conditionalFileInstalls>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+              <conditionFlags>
+                <flag name="embers_xd">Off</flag>
+              </conditionFlags>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="Carried Lights">
+      <optionalFileGroups order="Explicit">
+        <group name="Torches" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Make carried torches match other fire">
+              <description>Install a plugin that makes light from carried torches match the color of other mortal fire.</description>
+              <files>
+                <file source="plugins\lpo_torch.esp" destination="lpo_torch.esp" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="Whitelists">
+      <optionalFileGroups order="Explicit">
+        <group name="whitelists" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="ELFX">
+              <description>Select this if you'd like to whitelist ELFX lights or ELFX Shadows' lights. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\elfx.ini" destination="LightPlacer\lpo\elfx.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="LUX">
+              <description>Select this if you'd like to whitelist lights added by LUX. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them. Note that this does not whitelist Lux Via because Light Placer configs that cover Lux Via are included.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\lux.ini" destination="LightPlacer\lpo\lux.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Realistic Lighting Overhaul">
+              <description>Select this if you'd like to whitelist lights added by Realistic Lighting Overhaul. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\realistic_lighting_overhaul.ini" destination="LightPlacer\lpo\realistic_lighting_overhaul.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Relighting Skyrim">
+              <description>Select this if you'd like to whitelist lights added by Relighting Skyrim. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\relighting_skyrim.ini" destination="LightPlacer\lpo\relighting_skyrim.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Window Shadows Ultimate">
+              <description>Select this if you'd like to whitelist lights added by Window Shadows Ultimate. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\window_shadows_ultimate.ini" destination="LightPlacer\lpo\window_shadows_ultimate.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Window Shadows RT">
+              <description>Select this if you'd like to whitelist lights added by Window Shadows RT. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\window_shadows_rt.ini" destination="LightPlacer\lpo\window_shadows_rt.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Lanterns of Skyrim">
+              <description>Select this if you'd like to whitelist lights added by Lanterns of Skyrim and Lanterns of Skyrim II. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\lanterns.ini" destination="LightPlacer\lpo\lanterns.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Torches Candlelight and Lanterns">
+              <description>Select this if you'd like to whitelist lights added by Torches Candlelight and Lanterns. Whitelisting can cause fake lights. If you use patches you will need to manually whitelist them.</description>
+              <files>
+                <file source="configs\lightplacer\whitelists\torches_candlelight_and_lanterns.ini" destination="LightPlacer\lpo\torches_candlelight_and_lanterns.ini" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+  <conditionalFileInstalls>
+    <patterns>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="Off"/>
+          <flagDependency flag="embers_xd" value="On"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="Off"/>
+          <flagDependency flag="embers_xd" value="Off"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+          <flagDependency flag="embers_xd" value="On"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+          <flagDependency flag="embers_xd" value="Off"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\lpo\tg09nocturnalfxfirepurple.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+        </dependencies>
+        <files>
+          <folder source="configs\lightplacer\shadows" destination="LightPlacer\lpo"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="and">
+          <flagDependency flag="shadows" value="Off"/>
+        </dependencies>
+        <files>
+          <folder source="configs\lightplacer\no_shadows" destination="LightPlacer\lpo"/>
+        </files>
+      </pattern>
+    </patterns>
+  </conditionalFileInstalls>
 </config>

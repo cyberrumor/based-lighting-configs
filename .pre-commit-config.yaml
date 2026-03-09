@@ -18,3 +18,8 @@ repos:
         entry: .pre-commit-hooks/format-json.sh
         language: script
         types: [json]
+      - id: format-xml
+        name: format xml with xmllint
+        entry: .pre-commit-hooks/format-xml.sh
+        language: script
+        types: [xml]
