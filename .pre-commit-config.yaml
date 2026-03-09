@@ -1,6 +1,12 @@
 repos:
   - repo: local
     hooks:
+      - id: no-shadow-flag
+        name: no Shadow flag outside shadows directories
+        entry: .pre-commit-hooks/no-shadow-flag.sh
+        language: script
+        types: [json]
+        exclude: shadows/
       - id: sync-shadow-configs
         name: sync shadow configs from no_shadows
         entry: .pre-commit-hooks/sync-shadow-configs.sh
