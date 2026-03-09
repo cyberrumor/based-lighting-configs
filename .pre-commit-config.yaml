@@ -7,6 +7,12 @@ repos:
         language: script
         types: [json]
         exclude: shadows/
+      - id: require-shadow-flag
+        name: require Shadow flag in shadows directories
+        entry: .pre-commit-hooks/require-shadow-flag.sh
+        language: script
+        types: [json]
+        files: shadows/
       - id: sync-shadow-configs
         name: sync shadow configs from no_shadows
         entry: .pre-commit-hooks/sync-shadow-configs.sh
