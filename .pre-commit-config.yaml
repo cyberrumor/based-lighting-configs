@@ -29,3 +29,9 @@ repos:
         language: script
         types: [xml]
         files: fomod/ModuleConfig\.xml$
+      - id: check-fomod-sources
+        name: check fomod source paths exist
+        entry: .pre-commit-hooks/check-fomod-sources.sh
+        language: script
+        types: [xml]
+        files: fomod/ModuleConfig\.xml$
