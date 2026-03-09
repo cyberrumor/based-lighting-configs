@@ -42,18 +42,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -79,18 +139,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -116,18 +236,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -167,18 +347,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -207,9 +447,9 @@
       {
         "data": {
           "color": [
-              30,
-              50,
-              180
+            30,
+            50,
+            180
           ],
           "fade": 1.0,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
@@ -218,18 +458,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -294,18 +594,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -338,18 +698,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -412,18 +832,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -512,18 +992,78 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.1,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.3,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.5,  "value": 1.175, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.65, "value": 1.25, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.8,  "value": 1.05, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.0,  "value": 1.15, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.2,  "value": 1.075, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 1.2, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.6,  "value": 1.025, "forward": 0.0, "backward": 0.0 },
-              { "time": 1.8,  "value": 1.1, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.0,  "value": 1.175, "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.1,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.3,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.65,
+                "value": 1.25,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.8,
+                "value": 1.05,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.15,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.2,
+                "value": 1.075,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 1.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.6,
+                "value": 1.025,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.8,
+                "value": 1.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.0,
+                "value": 1.175,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },

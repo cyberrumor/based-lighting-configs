@@ -68,16 +68,16 @@
           "radius": 256.0
         },
         "blackList": [
-            "0xAEE98",
-            "0xAEE9C",
-            "0xAEEA4",
-            "0xAEE7A",
-            "0xAEFAF",
-            "0xAEFB5",
-            "0xAEE7C",
-            "0xAEE7D",
-            "0xAEE7F",
-            "0xAEE85"
+          "0xAEE98",
+          "0xAEE9C",
+          "0xAEEA4",
+          "0xAEE7A",
+          "0xAEFAF",
+          "0xAEFB5",
+          "0xAEE7C",
+          "0xAEE7D",
+          "0xAEE7F",
+          "0xAEE85"
         ],
         "points": [
           [

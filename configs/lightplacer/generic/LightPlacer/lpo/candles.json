@@ -15,13 +15,48 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 0.7,   "forward": 0.0, "backward": 0.0 },
-              { "time": 0.4,  "value": 0.65, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.9,  "value": 0.675,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 0.725,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.9,  "value": 0.7, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.4,  "value": 0.675,  "forward": 0.0, "backward": 0.0 },
-              { "time": 3.0,  "value": 0.7,   "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 0.7,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.4,
+                "value": 0.65,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.9,
+                "value": 0.675,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 0.725,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.9,
+                "value": 0.7,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.4,
+                "value": 0.675,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 3.0,
+                "value": 0.7,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -76,38 +111,38 @@
     "lights": [
       {
         "nodes": [
-            "AddOnNode",
-            "AddOnNode49",
-            "AddOnNode49@#0",
-            "AddOnNode49@#1",
-            "AddOnNode49@#2",
-            "AddOnNode49@#3",
-            "AddOnNode49@#4",
-            "AddOnNode49@#5",
-            "AddOnNode49@#6",
-            "AddOnNode50",
-            "AddOnNode51",
-            "AddOnNode52",
-            "EnchantingWorkstation01:9",
-            "EnchantingWorkstation01:10",
-            "EnchantingWorkstation01:11",
-            "EnchantingWorkstation01:12",
-            "EnchantingWorkstation01:13",
-            "EnchantingWorkstation01:14",
-            "EnchantingWorkstation01:28",
-            "EnchantingWorkstation01:29",
-            "EnchantingWorkstation01:30",
-            "EnchantingWorkstation01:31",
-            "EnchantingWorkstation01:32",
-            "EnchantingWorkbench01:86",
-            "EnchantingWorkbench01:87",
-            "EnchantingWorkbench01:88",
-            "EnchantingWorkbench01:89",
-            "EnchantingWorkbench01:90",
-            "EnchantingWorkbench01:91",
-            "EnchantingWorkbench01:92",
-            "EnchantingWorkbench01:93",
-            "EnchantingWorkbench01:94"
+          "AddOnNode",
+          "AddOnNode49",
+          "AddOnNode49@#0",
+          "AddOnNode49@#1",
+          "AddOnNode49@#2",
+          "AddOnNode49@#3",
+          "AddOnNode49@#4",
+          "AddOnNode49@#5",
+          "AddOnNode49@#6",
+          "AddOnNode50",
+          "AddOnNode51",
+          "AddOnNode52",
+          "EnchantingWorkstation01:9",
+          "EnchantingWorkstation01:10",
+          "EnchantingWorkstation01:11",
+          "EnchantingWorkstation01:12",
+          "EnchantingWorkstation01:13",
+          "EnchantingWorkstation01:14",
+          "EnchantingWorkstation01:28",
+          "EnchantingWorkstation01:29",
+          "EnchantingWorkstation01:30",
+          "EnchantingWorkstation01:31",
+          "EnchantingWorkstation01:32",
+          "EnchantingWorkbench01:86",
+          "EnchantingWorkbench01:87",
+          "EnchantingWorkbench01:88",
+          "EnchantingWorkbench01:89",
+          "EnchantingWorkbench01:90",
+          "EnchantingWorkbench01:91",
+          "EnchantingWorkbench01:92",
+          "EnchantingWorkbench01:93",
+          "EnchantingWorkbench01:94"
         ],
         "data": {
           "color": [
@@ -122,13 +157,48 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 0.1,   "forward": 0.0, "backward": 0.0 },
-              { "time": 0.4,  "value": 0.115, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.9,  "value": 0.09,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 0.12,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.9,  "value": 0.085, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.4,  "value": 0.11,  "forward": 0.0, "backward": 0.0 },
-              { "time": 3.0,  "value": 0.1,   "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 0.1,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.4,
+                "value": 0.115,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.9,
+                "value": 0.09,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 0.12,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.9,
+                "value": 0.085,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.4,
+                "value": 0.11,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 3.0,
+                "value": 0.1,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         }
@@ -317,18 +387,18 @@
     "lights": [
       {
         "nodes": [
-            "AddOnNode49",
-            "AddOnNode49@#0",
-            "AddOnNode49@#1",
-            "AddOnNode49@#2",
-            "AddOnNode49@#3",
-            "AddOnNode49@#4",
-            "AddOnNode49@#5",
-            "AddOnNode49@#6",
-            "AddOnNode50",
-            "AddOnNode51",
-            "AddOnNode52",
-            "Candleflame"
+          "AddOnNode49",
+          "AddOnNode49@#0",
+          "AddOnNode49@#1",
+          "AddOnNode49@#2",
+          "AddOnNode49@#3",
+          "AddOnNode49@#4",
+          "AddOnNode49@#5",
+          "AddOnNode49@#6",
+          "AddOnNode50",
+          "AddOnNode51",
+          "AddOnNode52",
+          "Candleflame"
         ],
         "data": {
           "color": [
@@ -343,13 +413,48 @@
           "fadeController": {
             "interpolation": "Linear",
             "keys": [
-              { "time": 0.0,  "value": 0.2,   "forward": 0.0, "backward": 0.0 },
-              { "time": 0.4,  "value": 0.215, "forward": 0.0, "backward": 0.0 },
-              { "time": 0.9,  "value": 0.19,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.4,  "value": 0.22,  "forward": 0.0, "backward": 0.0 },
-              { "time": 1.9,  "value": 0.185, "forward": 0.0, "backward": 0.0 },
-              { "time": 2.4,  "value": 0.21,  "forward": 0.0, "backward": 0.0 },
-              { "time": 3.0,  "value": 0.2,   "forward": 0.0, "backward": 0.0 }
+              {
+                "time": 0.0,
+                "value": 0.2,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.4,
+                "value": 0.215,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 0.9,
+                "value": 0.19,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.4,
+                "value": 0.22,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 1.9,
+                "value": 0.185,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 2.4,
+                "value": 0.21,
+                "forward": 0.0,
+                "backward": 0.0
+              },
+              {
+                "time": 3.0,
+                "value": 0.2,
+                "forward": 0.0,
+                "backward": 0.0
+              }
             ]
           }
         },
@@ -406,9 +511,9 @@
         ],
         "data": {
           "color": [
-                226,
-                140,
-                63
+            226,
+            140,
+            63
           ],
           "fade": 0.2,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
