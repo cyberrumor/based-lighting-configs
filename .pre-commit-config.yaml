@@ -18,6 +18,12 @@ repos:
         entry: .pre-commit-hooks/format-json.sh
         language: script
         types: [json]
+      - id: validate-fomod
+        name: validate fomod against xsd
+        entry: .pre-commit-hooks/validate-fomod.sh
+        language: script
+        types: [xml]
+        files: fomod/ModuleConfig\.xml$
       - id: format-xml
         name: format xml with xmllint
         entry: .pre-commit-hooks/format-xml.sh

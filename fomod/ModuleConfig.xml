@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/dh-nunes/fomod-schema/master/ModuleConfig.xsd">
   <moduleName>lpo</moduleName>
   <requiredInstallFiles>
     <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer"/>
@@ -16,6 +16,8 @@
           <plugins order="Explicit">
             <plugin name="LPO Core">
               <description>Remove all lights, then attach omnilights only to models that should reasonably provide illumination.</description>
+              <files>
+                            </files>
               <typeDescriptor>
                 <type name="Optional"/>
               </typeDescriptor>
@@ -53,23 +55,23 @@
               <description>LightPlacer configs add lights without shadows.</description>
               <files>
                             </files>
-              <typeDescriptor>
-                <type name="Optional"/>
-              </typeDescriptor>
               <conditionFlags>
                 <flag name="shadows">Off</flag>
               </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
             </plugin>
             <plugin name="Allow shadows">
               <description>LightPlacer configs add lights with shadows.</description>
               <files>
                             </files>
-              <typeDescriptor>
-                <type name="Optional"/>
-              </typeDescriptor>
               <conditionFlags>
                 <flag name="shadows">On</flag>
               </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
             </plugin>
           </plugins>
         </group>
@@ -161,23 +163,23 @@
               <description>Attach pink light to nocturnal flames.</description>
               <files>
                             </files>
-              <typeDescriptor>
-                <type name="Optional"/>
-              </typeDescriptor>
               <conditionFlags>
                 <flag name="embers_xd">On</flag>
               </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
             </plugin>
             <plugin name="None">
               <description>Attach violet light to nocturnal flames.</description>
               <files>
                             </files>
-              <typeDescriptor>
-                <type name="Optional"/>
-              </typeDescriptor>
               <conditionFlags>
                 <flag name="embers_xd">Off</flag>
               </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
             </plugin>
           </plugins>
         </group>
@@ -328,7 +330,7 @@
         </files>
       </pattern>
       <pattern>
-        <dependencies operator="and">
+        <dependencies operator="And">
           <flagDependency flag="shadows" value="Off"/>
         </dependencies>
         <files>
