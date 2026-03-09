@@ -6,52 +6,61 @@ repos:
       - id: end-of-file-fixer
   - repo: local
     hooks:
+
+      - id: format-json
+        name: format json with jq
+        entry: .pre-commit/format-json.sh
+        language: script
+        types: [json]
+
       - id: no-shadow-flag
         name: no Shadow flag outside shadows directories
         entry: .pre-commit/no-shadow-flag.sh
         language: script
         types: [json]
         exclude: shadows/
+
       - id: require-shadow-flag
         name: require Shadow flag in shadows directories
         entry: .pre-commit/require-shadow-flag.sh
         language: script
         types: [json]
         files: shadows/
+
       - id: sync-shadow-configs
         name: sync shadow configs from no_shadows
         entry: .pre-commit/sync-shadow-configs.sh
         language: script
         types: [json]
         files: no_shadows/
+
       - id: match-shadow-filenames
         name: match filenames between no_shadows and shadows
         entry: .pre-commit/match-shadow-filenames.sh
         language: script
         pass_filenames: false
         always_run: true
-      - id: format-json
-        name: format json with jq
-        entry: .pre-commit/format-json.sh
-        language: script
-        types: [json]
+
       - id: format-xml
         name: format xml with xmllint
         entry: .pre-commit/format-xml.sh
         language: script
         types: [xml]
+
       - id: validate-fomod
         name: validate fomod against xsd
         entry: .pre-commit/validate-fomod.sh
         language: script
         types: [xml]
         files: fomod/ModuleConfig\.xml$
+
       - id: check-fomod-sources
         name: check fomod source paths exist
         entry: .pre-commit/check-fomod-sources.sh
         language: script
         types: [xml]
         files: fomod/ModuleConfig\.xml$
+
       - id: check-fomod-file-destinations
         name: check fomod file source and destination filenames match
         entry: .pre-commit/check-fomod-file-destinations.sh
