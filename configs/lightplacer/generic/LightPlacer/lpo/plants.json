@@ -421,23 +421,65 @@
             133,
             137
           ],
-          "fade": 0.5,
+          "fade": 0.8,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 512.0
         },
-        "points": [
-          [
-            0,
-            0,
-            0
-          ]
+        "nodes": [
+          "GlowingMushroomCluster01:0 - L1_GlowingMushroomCluster01:0"
+        ]
+      }
+    ],
+    "models": [
+      "plants\\glowingmushroomcluster01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 0.2,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0
+        },
+        "nodes": [
+          "GlowingMushroomCluster01_1:0 - L1_GlowingMushroomCluster02:0"
+        ]
+      }
+    ],
+    "models": [
+      "plants\\glowingmushroomcluster01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            39,
+            133,
+            137
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "nodes": [
+          "GlowingMushroom01:0",
+          "GlowingMushroomSingle01:0"
         ]
       }
     ],
     "models": [
       "plants\\glowingmushroom01.nif",
-      "plants\\glowingmushroomcluster01.nif",
       "plants\\glowingmushroomsingle01.nif"
     ]
   },
