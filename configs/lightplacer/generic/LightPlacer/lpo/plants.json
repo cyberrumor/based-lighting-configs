@@ -340,17 +340,18 @@
             115,
             192
           ],
-          "fade": 1.0,
+          "fade": 0.25,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0
         },
-        "points": [
-          [
-            0,
-            0,
-            60
-          ]
+        "nodes": [
+          "Pod:0",
+          "Pod01:0",
+          "Pod03:0",
+          "Pod04:0",
+          "Pod10:0",
+          "Pod11:0"
         ]
       }
     ],
