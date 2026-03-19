@@ -163,7 +163,7 @@
           "offset": [
             0,
             0,
-            25
+            5
           ],
           "radius": 256.0
         },
@@ -287,6 +287,11 @@
           },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
+          "offset": [
+            0,
+            0,
+            5
+          ],
           "radius": 256.0
         },
         "nodes": [
