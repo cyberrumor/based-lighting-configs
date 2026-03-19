@@ -3,7 +3,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/dh-nunes/fomod-schema/master/ModuleConfig.xsd">
   <moduleName>lpo</moduleName>
   <requiredInstallFiles>
-    <folder source="configs\lightplacer\generic\LightPlacer" destination="LightPlacer"/>
+    <folder source="configs\lightplacer\generic" destination="LightPlacer"/>
     <folder source="textures" destination="textures"/>
     <folder source="configs\particlelights" destination="particlelights"/>
     <folder source="SKSE" destination="SKSE"/>
