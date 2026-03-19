@@ -579,26 +579,6 @@
             -50
           ]
         ]
-      },
-      {
-        "data": {
-          "color": [
-            226,
-            140,
-            63
-          ],
-          "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
-          "light": "DefaultSunlight01NS",
-          "radius": 512.0
-        },
-        "points": [
-          [
-            0,
-            0,
-            75
-          ]
-        ]
       }
     ],
     "models": [

@@ -1,0 +1,38 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            226,
+            140,
+            63
+          ],
+          "fade": 0.25,
+          "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "_resourcepack\\clutter\\imperial\\impchandelliercandle01nochain.nif",
+      "bscyrodiil\\clutter\\imperial\\impchandelliercandle01.nif",
+      "clutter\\candles\\candlehornchandelier01.nif",
+      "clutter\\candles\\candlehornchandelier02.nif",
+      "clutter\\imperial\\impchandelliercandle01.nif",
+      "clutter\\imperial\\impchandelliercandle02.nif",
+      "clutter\\imperial\\impchandelliercandle03.nif",
+      "creationclub\\eejsse004\\clutter\\eej_chandeliershort.nif",
+      "dlc01\\architecture\\snowelfruins\\seruinschandelier01.nif",
+      "uskp\\clutter\\chandellier\\impchandelliercandle01uskp.nif"
+    ]
+  }
+]
