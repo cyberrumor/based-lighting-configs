@@ -51,23 +51,23 @@
         </group>
         <group name="Shadows" type="SelectExactlyOne">
           <plugins order="Explicit">
-            <plugin name="Disallow shadows">
-              <description>LightPlacer configs add lights without shadows.</description>
-              <files>
-                            </files>
-              <conditionFlags>
-                <flag name="shadows">Off</flag>
-              </conditionFlags>
-              <typeDescriptor>
-                <type name="Optional"/>
-              </typeDescriptor>
-            </plugin>
             <plugin name="Allow shadows">
               <description>LightPlacer configs add lights with shadows.</description>
               <files>
                             </files>
               <conditionFlags>
                 <flag name="shadows">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Disallow shadows">
+              <description>LightPlacer configs add lights without shadows.</description>
+              <files>
+                            </files>
+              <conditionFlags>
+                <flag name="shadows">Off</flag>
               </conditionFlags>
               <typeDescriptor>
                 <type name="Optional"/>
