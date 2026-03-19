@@ -11,7 +11,8 @@
           "fade": 0.5,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -38,7 +39,8 @@
           "fade": 0.5,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 128.0
+          "radius": 128.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [

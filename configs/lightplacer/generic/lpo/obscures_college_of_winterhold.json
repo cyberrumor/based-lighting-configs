@@ -46,7 +46,8 @@
           "fade": 0.2,
           "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 386.0
+          "radius": 386.0,
+          "shadowDepthBias": 1.0
         },
         "nodes": [
           "Flame01",

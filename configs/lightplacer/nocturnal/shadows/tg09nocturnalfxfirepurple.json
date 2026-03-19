@@ -88,7 +88,8 @@
           },
           "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
           "light": "DefaultSunlight01NS",
-          "radius": 386.0
+          "radius": 386.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [

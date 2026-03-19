@@ -11,7 +11,8 @@
           "fade": 0.1,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 64.0
+          "radius": 64.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -115,7 +116,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -212,7 +214,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 768.0
+          "radius": 768.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -309,7 +312,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 2048.0
+          "radius": 2048.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -420,7 +424,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -531,7 +536,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 386.0
+          "radius": 386.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -559,7 +565,8 @@
           "fade": 1.0,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -667,7 +674,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -771,7 +779,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -799,7 +808,8 @@
           "fade": 0.25,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 128.0
+          "radius": 128.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -905,7 +915,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -932,7 +943,8 @@
           "fade": 0.25,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1065,7 +1077,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1136,7 +1149,8 @@
           "fade": 0.25,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1163,7 +1177,8 @@
           "fade": 1.0,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 384.0
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1190,7 +1205,8 @@
           "fade": 0.5,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 64.0
+          "radius": 64.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1215,7 +1231,8 @@
           "fade": 0.75,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 32.0
+          "radius": 32.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -1235,7 +1252,8 @@
           "fade": 0.5,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 64.0
+          "radius": 64.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [

@@ -58,7 +58,8 @@
           },
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -86,7 +87,8 @@
           "fade": 2.0,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -165,7 +167,8 @@
             0,
             5
           ],
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "nodes": [
           "AddOnNode",
@@ -292,7 +295,8 @@
             0,
             5
           ],
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "nodes": [
           "AddOnNode49",
@@ -501,7 +505,8 @@
           "fade": 0.3,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -521,7 +526,8 @@
           "fade": 0.2,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 256.0
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -548,7 +554,8 @@
           "fade": 0.4,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
@@ -575,7 +582,8 @@
           "fade": 1.5,
           "flags": "IgnoreScale|NoExternalEmittance|RandomAnimStart|InverseSquare",
           "light": "DefaultSunlight01NS",
-          "radius": 512.0
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
         },
         "points": [
           [
