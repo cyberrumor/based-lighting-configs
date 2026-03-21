@@ -5,7 +5,6 @@
   <requiredInstallFiles>
     <folder source="configs\lightplacer\generic" destination="LightPlacer"/>
     <folder source="textures" destination="textures"/>
-    <folder source="configs\particlelights" destination="particlelights"/>
     <folder source="SKSE" destination="SKSE"/>
     <file source="configs\bos\based_lighting\bl_SWAP.ini" destination="bl_SWAP.ini" priority="0"/>
   </requiredInstallFiles>
