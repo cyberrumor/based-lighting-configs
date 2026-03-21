@@ -1,7 +1,7 @@
-# lpo
+# Based Lighting Configs
 
 [Nexus Mirror](https://www.nexusmods.com/skyrimspecialedition/mods/136870)
-[Github Mirror](https://github.com/cyberrumor/lpo)
+[Github Mirror](https://github.com/cyberrumor/based-lighting-configs)
 
 ## Requirements
 
@@ -12,18 +12,18 @@
 - [Light Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/99548)
 - [Light Placer](https://www.nexusmods.com/skyrimspecialedition/mods/127557)
 
-## What Does LPO Add Light To?
+## Scope of Light Placer Configs
 
 You can install the CLI tool `jq` and run this command to generate this list:
 
 Windows:
 ```
-type Data\lightplacer\lpo\* | jq '.[].models' | sort /unique
+type Data\lightplacer\based-lighting-configs\* | jq '.[].models' | sort /unique
 ```
 
 Linux:
 ```
-cat Data/lightplacer/lpo/* | jq '.[].models' | sort | uniq
+cat Data/lightplacer/based-lighting-configs/* | jq '.[].models' | sort | uniq
 ```
 
 ## Further Reading
@@ -35,7 +35,8 @@ cat Data/lightplacer/lpo/* | jq '.[].models' | sort | uniq
 
 ## Development Setup
 
-LPO uses pre-commit hooks to generate, format, and validate configs.
+Based Lighting uses pre-commit hooks to generate, format, and validate configs
+and ModuleConfig.xml.
 
 ```
 # ubuntu
