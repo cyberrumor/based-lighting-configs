@@ -444,7 +444,8 @@
           "shadowDepthBias": 1.0
         },
         "nodes": [
-          "GlowingMushroomCluster01:0 - L1_GlowingMushroomCluster01:0"
+          "GlowingMushroomCluster01:0 - L1_GlowingMushroomCluster01:0",
+          "GlowingMushroomCluster01:0"
         ]
       }
     ],
@@ -468,7 +469,8 @@
           "shadowDepthBias": 1.0
         },
         "nodes": [
-          "GlowingMushroomCluster01_1:0 - L1_GlowingMushroomCluster02:0"
+          "GlowingMushroomCluster01_1:0 - L1_GlowingMushroomCluster02:0",
+          "GlowingMushroomCluster01_1:0"
         ]
       }
     ],
@@ -493,6 +495,7 @@
         },
         "nodes": [
           "GlowingMushroom01:0",
+          "GlowingMushroom01:0[3]",
           "GlowingMushroomSingle01:0"
         ]
       }
