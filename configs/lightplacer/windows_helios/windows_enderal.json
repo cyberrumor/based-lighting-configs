@@ -1,0 +1,298 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -190,
+            0,
+            -200
+          ],
+          [
+            175,
+            0,
+            -200
+          ],
+          [
+            540,
+            0,
+            -200
+          ],
+          [
+            -540,
+            0,
+            -200
+          ]
+        ],
+        "whiteList": [
+          "0x784F5",
+          "0x784F6",
+          "0x785BC",
+          "0x785BD",
+          "0x78528"
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\bridge.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -190,
+            -350,
+            -500
+          ],
+          [
+            175,
+            -350,
+            -500
+          ],
+          [
+            540,
+            -350,
+            -500
+          ],
+          [
+            -540,
+            -350,
+            -500
+          ]
+        ],
+        "whiteList": [
+          "0x784F5",
+          "0x785BD",
+          "0x785BC"
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\bridge.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -190,
+            -400,
+            -600
+          ],
+          [
+            175,
+            -400,
+            -600
+          ],
+          [
+            540,
+            -400,
+            -600
+          ]
+        ],
+        "whiteList": [
+          "0x785BD",
+          "0x785BC"
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\bridge.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 1.5,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 1024.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -190,
+            -500,
+            -900
+          ],
+          [
+            175,
+            -500,
+            -900
+          ],
+          [
+            540,
+            -500,
+            -900
+          ],
+          [
+            -540,
+            -500,
+            -900
+          ]
+        ],
+        "whiteList": [
+          "0x785BD"
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\bridge.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 1.0,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -190,
+            350,
+            -500
+          ],
+          [
+            175,
+            350,
+            -500
+          ],
+          [
+            540,
+            350,
+            -500
+          ],
+          [
+            -540,
+            350,
+            -500
+          ]
+        ],
+        "whiteList": [
+          "0x784F6"
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\bridge.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            -300,
+            -100
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\medievalpack\\oriel10a.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            150,
+            175,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.75,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 512.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            100
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "enderal\\architecture\\paladin-castle\\paladincastleopenwindow.nif",
+      "enderal\\architecture\\sullevanpalacetransparentwindow.nif"
+    ]
+  }
+]

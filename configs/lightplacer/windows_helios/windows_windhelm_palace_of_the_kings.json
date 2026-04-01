@@ -1,0 +1,62 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.5,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            100
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\windhelm\\interiorkits\\castle\\whintcastlelroomwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\castle\\ws_whintcastlelroomwallwindow01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.5,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 128.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -80,
+            0,
+            20
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\windhelm\\interiorkits\\castle\\whintcastleroomwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\castle\\ws_whintcastleroomwallwindow01.nif"
+    ]
+  }
+]

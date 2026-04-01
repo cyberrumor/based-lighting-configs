@@ -1,0 +1,338 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.5,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 96.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            125,
+            0,
+            425
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\slgcceiwin01.nif",
+      "architecture\\solitude\\interiors\\ws_slgcceiwin01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.1,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 768.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            -400
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\slgcdome01.nif",
+      "architecture\\solitude\\interiors\\ws_slgcdome01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "blackList": [
+          "0xAEE98",
+          "0xAEE9C",
+          "0xAEEA4",
+          "0xAEE7A",
+          "0xAEFAF",
+          "0xAEFB5",
+          "0xAEE7C",
+          "0xAEE7D",
+          "0xAEE7F",
+          "0xAEE85"
+        ],
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            15,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\smdcwinsol01.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol01.nif",
+      "architecture\\solitude\\interiors\\smdcwinsol02.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol02.nif",
+      "architecture\\solitude\\interiors\\slgcwalwin02.nif",
+      "architecture\\solitude\\interiors\\ws_slgcwalwin02.nif",
+      "architecture\\solitude\\interiors\\smdcwinsol04.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol04.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            0,
+            20,
+            75
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            50,
+            50,
+            75
+          ],
+          [
+            50,
+            -50,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\slgcwalwin03.nif",
+      "architecture\\solitude\\interiors\\ws_slgcwalwin03.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            0,
+            20,
+            75
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            50,
+            0,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\slgcwalwin04.nif",
+      "architecture\\solitude\\interiors\\ws_slgcwalwin04.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            0,
+            20,
+            75
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            15,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\smdcwinsol05.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol05.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            0,
+            20,
+            75
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -200,
+            150,
+            0
+          ],
+          [
+            -200,
+            -150,
+            0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\smdastasol04.nif",
+      "architecture\\solitude\\interiors\\ws_smdastasol04.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "blackList": [
+          "0x06ad6d"
+        ],
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.125,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -30,
+            15,
+            75
+          ],
+          [
+            30,
+            15,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\smdcwinsol03.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol03.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.125,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            15,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\smdbwinsol01.nif",
+      "architecture\\solitude\\interiors\\ws_smdbwinsol01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 0.25,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            160,
+            0,
+            75
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\solitude\\interiors\\ssmawinsol03.nif",
+      "architecture\\solitude\\interiors\\ws_ssmawinsol03.nif"
+    ]
+  }
+]

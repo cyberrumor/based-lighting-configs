@@ -41,6 +41,13 @@ repos:
         types: [json]
         files: windows/
 
+      - id: sync-windows-helios
+        name: sync windows configs to windows_helios
+        entry: .pre-commit/sync-windows-helios.sh
+        language: script
+        types: [json]
+        files: windows/
+
       - id: match-shadow-filenames
         name: match filenames between no_shadows and shadows
         entry: .pre-commit/match-shadow-filenames.sh

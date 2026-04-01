@@ -38,9 +38,18 @@
               </typeDescriptor>
             </plugin>
             <plugin name="Interior window lights">
-              <description>Add interior window fill lights without shadows or godrays. Compatible with Window Shadows Ultimate and Helios.</description>
+              <description>Add interior window fill lights without shadows or godrays. Compatible with Window Shadows Ultimate.</description>
               <files>
                 <folder source="configs\lightplacer\windows" destination="LightPlacer\based_lighting"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Interior window lights for Helios">
+              <description>Add interior window fill lights without shadows or godrays. Compatible with Window Shadows Ultimate and Helios.</description>
+              <files>
+                <folder source="configs\lightplacer\windows_helios" destination="LightPlacer\based_lighting"/>
               </files>
               <typeDescriptor>
                 <type name="Optional"/>

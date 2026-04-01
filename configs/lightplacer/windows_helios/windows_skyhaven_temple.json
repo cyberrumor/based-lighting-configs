@@ -1,0 +1,87 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "externalEmittance": "Helios_WeatherFx",
+          "fade": 3.0,
+          "flags": "IgnoreScale|InverseSquare",
+          "light": "DefaultSunlight01NS",
+          "radius": 256.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            -300,
+            1250,
+            1500
+          ],
+          [
+            -200,
+            700,
+            700
+          ],
+          [
+            1000,
+            1200,
+            1500
+          ],
+          [
+            500,
+            900,
+            700
+          ],
+          [
+            -200,
+            0,
+            1700
+          ],
+          [
+            -200,
+            0,
+            700
+          ],
+          [
+            -1350,
+            -125,
+            2200
+          ],
+          [
+            -1000,
+            -100,
+            1300
+          ],
+          [
+            -900,
+            50,
+            600
+          ],
+          [
+            -1950,
+            2800,
+            2000
+          ],
+          [
+            -1900,
+            3000,
+            950
+          ],
+          [
+            -2525,
+            3350,
+            1300
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "architecture\\skyhaventemple\\skyhaventempletemplayout01.nif",
+      "architecture\\skyhaventemple\\ws_skyhaventempletemplayout01.nif"
+    ]
+  }
+]
