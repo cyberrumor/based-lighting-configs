@@ -30,7 +30,7 @@
         <group name="Windows" type="SelectExactlyOne">
           <plugins order="Explicit">
             <plugin name="None">
-              <description>No window lights. Windows will be dark unless you use something like Window Shadows Ultimate.</description>
+              <description>No window fill. Windows will be completely dark unless you use something like Window Shadows Ultimate.</description>
               <files>
                             </files>
               <typeDescriptor>
@@ -38,7 +38,7 @@
               </typeDescriptor>
             </plugin>
             <plugin name="Interior window lights">
-              <description>Add shadowless lights to interior windows, compensating for disabled vanilla window lights.</description>
+              <description>Add interior window fill lights without shadows or godrays. Compatible with Window Shadows Ultimate and Helios.</description>
               <files>
                 <folder source="configs\lightplacer\windows" destination="LightPlacer\based_lighting"/>
               </files>

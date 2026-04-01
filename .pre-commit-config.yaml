@@ -34,6 +34,13 @@ repos:
         types: [json]
         files: no_shadows/
 
+      - id: windows-external-emittance
+        name: ensure externalEmittance on window lights
+        entry: .pre-commit/windows-external-emittance.sh
+        language: script
+        types: [json]
+        files: windows/
+
       - id: match-shadow-filenames
         name: match filenames between no_shadows and shadows
         entry: .pre-commit/match-shadow-filenames.sh

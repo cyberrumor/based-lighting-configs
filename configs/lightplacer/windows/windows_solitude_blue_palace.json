@@ -8,8 +8,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.5,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 96.0,
           "shadowDepthBias": 1.0
@@ -36,8 +37,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.1,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 768.0,
           "shadowDepthBias": 1.0
@@ -76,8 +78,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -107,8 +110,9 @@
             20,
             75
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -140,8 +144,9 @@
             20,
             75
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -168,8 +173,9 @@
             20,
             75
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -196,8 +202,9 @@
             20,
             75
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -232,8 +239,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.125,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -265,8 +273,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.125,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
@@ -293,8 +302,9 @@
             255,
             255
           ],
+          "externalEmittance": "FXLightRegionSunlight",
           "fade": 0.25,
-          "flags": "IgnoreScale|NoExternalEmittance|InverseSquare",
+          "flags": "IgnoreScale|InverseSquare",
           "light": "DefaultSunlight01NS",
           "radius": 256.0,
           "shadowDepthBias": 1.0
