@@ -34,17 +34,15 @@ jobs:
     env:
       TAG: ${{ inputs.tag || github.event.release.tag_name }}
     steps:
-      - name: Download release asset
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh release download "$TAG" --repo "${{ github.repository }}" --pattern "*.zip"
+      - name: Download source archive
+        run: curl -L -o "${{ github.event.repository.name }}-$TAG.zip" "https://github.com/${{ github.repository }}/archive/refs/tags/$TAG.zip"
 
       - name: Upload to Nexus Mods
         uses: Nexus-Mods/upload-action@v1.0.0-beta.3
         with:
           api_key: ${{ secrets.NEXUS_API_KEY }}
           file_group_id: 3215038
-          filename: "*.zip"
+          filename: "${{ github.event.repository.name }}-${{ env.TAG }}.zip"
           version: ${{ env.TAG }}
           display_name: "Based Lighting Configs"
           description: "Remember to endorse!"
