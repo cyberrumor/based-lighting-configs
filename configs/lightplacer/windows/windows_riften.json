@@ -30,7 +30,8 @@
       }
     ],
     "models": [
-      "architecture\\riften\\interior\\smallroomfirst\\rifrmsmfirstcorinwin02.nif"
+      "architecture\\riften\\interior\\smallroomfirst\\rifrmsmfirstcorinwin02.nif",
+      "architecture\\riften\\interior\\smallroomfirst\\ws_rifrmsmfirstcorinwin02.nif"
     ]
   },
   {
@@ -60,7 +61,9 @@
     ],
     "models": [
       "architecture\\riften\\interior\\smallroomfirst\\rifrmsmfirstwallwin01.nif",
-      "architecture\\riften\\interior\\smallroomsecond\\rifrmsmsecondwallwin01.nif"
+      "architecture\\riften\\interior\\smallroomfirst\\ws_rifrmsmfirstwallwin01.nif",
+      "architecture\\riften\\interior\\smallroomsecond\\rifrmsmsecondwallwin01.nif",
+      "architecture\\riften\\interior\\smallroomsecond\\ws_rifrmsmsecondwallwin01.nif"
     ]
   },
   {
@@ -89,7 +92,8 @@
       }
     ],
     "models": [
-      "architecture\\riften\\interior\\smallroomfirst\\rifrmsmfirstwallwin02.nif"
+      "architecture\\riften\\interior\\smallroomfirst\\rifrmsmfirstwallwin02.nif",
+      "architecture\\riften\\interior\\smallroomfirst\\ws_rifrmsmfirstwallwin02.nif"
     ]
   }
 ]

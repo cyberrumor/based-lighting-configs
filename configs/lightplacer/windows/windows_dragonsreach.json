@@ -30,7 +30,8 @@
       }
     ],
     "models": [
-      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallbasestr01win.nif"
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallbasestr01win.nif",
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\ws_wrintcastlewallbasestr01win.nif"
     ]
   },
   {
@@ -62,7 +63,8 @@
       }
     ],
     "models": [
-      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallbasestrdouble02.nif"
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallbasestrdouble02.nif",
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\ws_wrintcastlewallbasestrdouble02.nif"
     ]
   },
   {
@@ -91,7 +93,8 @@
       }
     ],
     "models": [
-      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallstrwin01.nif"
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallstrwin01.nif",
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\ws_wrintcastlewallstrwin01.nif"
     ]
   },
   {
@@ -125,7 +128,8 @@
       }
     ],
     "models": [
-      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallstrwin01double.nif"
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\wrintcastlewallstrwin01double.nif",
+      "architecture\\whiterun\\wrinteriors\\wrcastle\\ws_wrintcastlewallstrwin01double.nif"
     ]
   }
 ]

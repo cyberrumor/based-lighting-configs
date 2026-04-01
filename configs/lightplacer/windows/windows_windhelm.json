@@ -25,7 +25,8 @@
       }
     ],
     "models": [
-      "architecture\\windhelm\\interiorkits\\wood\\whintwoodbackwallwindow01.nif"
+      "architecture\\windhelm\\interiorkits\\wood\\whintwoodbackwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodbackwallwindow01.nif"
     ]
   },
   {
@@ -54,7 +55,8 @@
       }
     ],
     "models": [
-      "architecture\\windhelm\\interiorkits\\wood\\whintwoodroofleftwindow01.nif"
+      "architecture\\windhelm\\interiorkits\\wood\\whintwoodroofleftwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodroofleftwindow01.nif"
     ]
   },
   {
@@ -83,7 +85,8 @@
       }
     ],
     "models": [
-      "architecture\\windhelm\\interiorkits\\wood\\whintwoodroofrightwindow01.nif"
+      "architecture\\windhelm\\interiorkits\\wood\\whintwoodroofrightwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodroofrightwindow01.nif"
     ]
   },
   {
@@ -116,10 +119,15 @@
     ],
     "models": [
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow02.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallstonewindow02.nif",
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow03.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallstonewindow03.nif",
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow04.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallstonewindow04.nif",
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow06.nif",
-      "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow07.nif"
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallstonewindow06.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallstonewindow07.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallstonewindow07.nif"
     ]
   },
   {
@@ -149,8 +157,11 @@
     ],
     "models": [
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallwindow01.nif",
       "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallwindow02.nif",
-      "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallwindow03.nif"
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallwindow02.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\whintwoodwallwindow03.nif",
+      "architecture\\windhelm\\interiorkits\\wood\\ws_whintwoodwallwindow03.nif"
     ]
   }
 ]

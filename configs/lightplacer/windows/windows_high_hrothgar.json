@@ -25,7 +25,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaylendl.nif"
+      "architecture\\highhrothgar\\hhlgbaylendl.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaylendl.nif"
     ]
   },
   {
@@ -54,7 +55,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbayr01.nif"
+      "architecture\\highhrothgar\\hhlgbayr01.nif",
+      "architecture\\highhrothgar\\ws_hhlgbayr01.nif"
     ]
   },
   {
@@ -83,7 +85,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbayrangle.nif"
+      "architecture\\highhrothgar\\hhlgbayrangle.nif",
+      "architecture\\highhrothgar\\ws_hhlgbayrangle.nif"
     ]
   },
   {
@@ -113,7 +116,9 @@
     ],
     "models": [
       "architecture\\highhrothgar\\hhlgbaysm01.nif",
-      "architecture\\highhrothgar\\hhlgbaysmcon01.nif"
+      "architecture\\highhrothgar\\ws_hhlgbaysm01.nif",
+      "architecture\\highhrothgar\\hhlgbaysmcon01.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysmcon01.nif"
     ]
   },
   {
@@ -142,7 +147,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaysm02.nif"
+      "architecture\\highhrothgar\\hhlgbaysm02.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysm02.nif"
     ]
   },
   {
@@ -171,7 +177,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaysmangle.nif"
+      "architecture\\highhrothgar\\hhlgbaysmangle.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysmangle.nif"
     ]
   },
   {
@@ -200,7 +207,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaysmcon02.nif"
+      "architecture\\highhrothgar\\hhlgbaysmcon02.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysmcon02.nif"
     ]
   },
   {
@@ -229,7 +237,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaysmend01.nif"
+      "architecture\\highhrothgar\\hhlgbaysmend01.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysmend01.nif"
     ]
   },
   {
@@ -258,7 +267,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhlgbaysment02.nif"
+      "architecture\\highhrothgar\\hhlgbaysment02.nif",
+      "architecture\\highhrothgar\\ws_hhlgbaysment02.nif"
     ]
   },
   {
@@ -287,7 +297,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\HHMainHallCon01.nif"
+      "architecture\\highhrothgar\\HHMainHallCon01.nif",
+      "architecture\\highhrothgar\\ws_HHMainHallCon01.nif"
     ]
   },
   {
@@ -316,7 +327,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\HHMainHallCon02.nif"
+      "architecture\\highhrothgar\\HHMainHallCon02.nif",
+      "architecture\\highhrothgar\\ws_HHMainHallCon02.nif"
     ]
   },
   {
@@ -345,7 +357,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhmainhalllgbaycon01.nif"
+      "architecture\\highhrothgar\\hhmainhalllgbaycon01.nif",
+      "architecture\\highhrothgar\\ws_hhmainhalllgbaycon01.nif"
     ]
   },
   {
@@ -374,7 +387,8 @@
       }
     ],
     "models": [
-      "architecture\\highhrothgar\\hhmainhalllgbaycon02.nif"
+      "architecture\\highhrothgar\\hhmainhalllgbaycon02.nif",
+      "architecture\\highhrothgar\\ws_hhmainhalllgbaycon02.nif"
     ]
   }
 ]

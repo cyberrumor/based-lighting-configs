@@ -26,7 +26,9 @@
     ],
     "models": [
       "architecture\\winterhold\\winterholdstowerintwall01.nif",
-      "architecture\\winterhold\\winterholdstowerintwall02.nif"
+      "architecture\\winterhold\\ws_winterholdstowerintwall01.nif",
+      "architecture\\winterhold\\winterholdstowerintwall02.nif",
+      "architecture\\winterhold\\ws_winterholdstowerintwall02.nif"
     ]
   },
   {
@@ -55,7 +57,8 @@
       }
     ],
     "models": [
-      "architecture\\winterhold\\winterholdtowerintwall01.nif"
+      "architecture\\winterhold\\winterholdtowerintwall01.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall01.nif"
     ]
   },
   {
@@ -94,7 +97,8 @@
       }
     ],
     "models": [
-      "architecture\\winterhold\\winterholdtowerintwall02.nif"
+      "architecture\\winterhold\\winterholdtowerintwall02.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall02.nif"
     ]
   },
   {
@@ -124,10 +128,15 @@
     ],
     "models": [
       "architecture\\winterhold\\winterholdtowerintwall04.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall04.nif",
       "architecture\\winterhold\\winterholdtowerintwall06.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall06.nif",
       "architecture\\winterhold\\winterholdtowerintwall07.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall07.nif",
       "architecture\\winterhold\\winterholdtowerintwall08.nif",
-      "architecture\\winterhold\\winterholdtowerintwall09.nif"
+      "architecture\\winterhold\\ws_winterholdtowerintwall08.nif",
+      "architecture\\winterhold\\winterholdtowerintwall09.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall09.nif"
     ]
   },
   {
@@ -210,7 +219,8 @@
       }
     ],
     "models": [
-      "architecture\\winterhold\\winterholdtowerintwall05.nif"
+      "architecture\\winterhold\\winterholdtowerintwall05.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall05.nif"
     ]
   },
   {
@@ -303,7 +313,8 @@
       }
     ],
     "models": [
-      "architecture\\winterhold\\winterholdtowerintwall10.nif"
+      "architecture\\winterhold\\winterholdtowerintwall10.nif",
+      "architecture\\winterhold\\ws_winterholdtowerintwall10.nif"
     ]
   }
 ]

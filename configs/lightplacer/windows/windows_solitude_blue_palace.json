@@ -25,7 +25,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\slgcceiwin01.nif"
+      "architecture\\solitude\\interiors\\slgcceiwin01.nif",
+      "architecture\\solitude\\interiors\\ws_slgcceiwin01.nif"
     ]
   },
   {
@@ -54,7 +55,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\slgcdome01.nif"
+      "architecture\\solitude\\interiors\\slgcdome01.nif",
+      "architecture\\solitude\\interiors\\ws_slgcdome01.nif"
     ]
   },
   {
@@ -96,9 +98,13 @@
     ],
     "models": [
       "architecture\\solitude\\interiors\\smdcwinsol01.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol01.nif",
       "architecture\\solitude\\interiors\\smdcwinsol02.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol02.nif",
       "architecture\\solitude\\interiors\\slgcwalwin02.nif",
-      "architecture\\solitude\\interiors\\smdcwinsol04.nif"
+      "architecture\\solitude\\interiors\\ws_slgcwalwin02.nif",
+      "architecture\\solitude\\interiors\\smdcwinsol04.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol04.nif"
     ]
   },
   {
@@ -132,7 +138,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\slgcwalwin03.nif"
+      "architecture\\solitude\\interiors\\slgcwalwin03.nif",
+      "architecture\\solitude\\interiors\\ws_slgcwalwin03.nif"
     ]
   },
   {
@@ -161,7 +168,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\slgcwalwin04.nif"
+      "architecture\\solitude\\interiors\\slgcwalwin04.nif",
+      "architecture\\solitude\\interiors\\ws_slgcwalwin04.nif"
     ]
   },
   {
@@ -190,7 +198,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\smdcwinsol05.nif"
+      "architecture\\solitude\\interiors\\smdcwinsol05.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol05.nif"
     ]
   },
   {
@@ -224,7 +233,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\smdastasol04.nif"
+      "architecture\\solitude\\interiors\\smdastasol04.nif",
+      "architecture\\solitude\\interiors\\ws_smdastasol04.nif"
     ]
   },
   {
@@ -261,7 +271,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\smdcwinsol03.nif"
+      "architecture\\solitude\\interiors\\smdcwinsol03.nif",
+      "architecture\\solitude\\interiors\\ws_smdcwinsol03.nif"
     ]
   },
   {
@@ -290,7 +301,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\smdbwinsol01.nif"
+      "architecture\\solitude\\interiors\\smdbwinsol01.nif",
+      "architecture\\solitude\\interiors\\ws_smdbwinsol01.nif"
     ]
   },
   {
@@ -319,7 +331,8 @@
       }
     ],
     "models": [
-      "architecture\\solitude\\interiors\\ssmawinsol03.nif"
+      "architecture\\solitude\\interiors\\ssmawinsol03.nif",
+      "architecture\\solitude\\interiors\\ws_ssmawinsol03.nif"
     ]
   }
 ]

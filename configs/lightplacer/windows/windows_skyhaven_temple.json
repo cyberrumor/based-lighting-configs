@@ -80,7 +80,8 @@
       }
     ],
     "models": [
-      "architecture\\skyhaventemple\\skyhaventempletemplayout01.nif"
+      "architecture\\skyhaventemple\\skyhaventempletemplayout01.nif",
+      "architecture\\skyhaventemple\\ws_skyhaventempletemplayout01.nif"
     ]
   }
 ]

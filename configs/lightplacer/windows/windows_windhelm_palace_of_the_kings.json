@@ -25,7 +25,8 @@
       }
     ],
     "models": [
-      "architecture\\windhelm\\interiorkits\\castle\\whintcastlelroomwallwindow01.nif"
+      "architecture\\windhelm\\interiorkits\\castle\\whintcastlelroomwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\castle\\ws_whintcastlelroomwallwindow01.nif"
     ]
   },
   {
@@ -54,7 +55,8 @@
       }
     ],
     "models": [
-      "architecture\\windhelm\\interiorkits\\castle\\whintcastleroomwallwindow01.nif"
+      "architecture\\windhelm\\interiorkits\\castle\\whintcastleroomwallwindow01.nif",
+      "architecture\\windhelm\\interiorkits\\castle\\ws_whintcastleroomwallwindow01.nif"
     ]
   }
 ]
