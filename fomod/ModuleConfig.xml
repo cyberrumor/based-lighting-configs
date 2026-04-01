@@ -7,7 +7,6 @@
     <folder source="textures" destination="textures"/>
     <folder source="SKSE" destination="SKSE"/>
     <file source="configs\bos\based_lighting\bl_SWAP.ini" destination="bl_SWAP.ini" priority="0"/>
-    <folder source="configs\lightplacer\no_shadows" destination="LightPlacer\based_lighting"/>
   </requiredInstallFiles>
   <installSteps order="Explicit">
     <installStep name="Based Lighting">
@@ -52,6 +51,32 @@
               <files>
                 <folder source="configs\lightplacer\windows_helios" destination="LightPlacer\based_lighting"/>
               </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Shadows" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Allow shadows">
+              <description>LightPlacer configs add lights with shadows.</description>
+              <files>
+                            </files>
+              <conditionFlags>
+                <flag name="shadows">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Disallow shadows">
+              <description>LightPlacer configs add lights without shadows.</description>
+              <files>
+                            </files>
+              <conditionFlags>
+                <flag name="shadows">Off</flag>
+              </conditionFlags>
               <typeDescriptor>
                 <type name="Optional"/>
               </typeDescriptor>
@@ -270,6 +295,7 @@
     <patterns>
       <pattern>
         <dependencies operator="And">
+          <flagDependency flag="shadows" value="Off"/>
           <flagDependency flag="embers_xd" value="On"/>
         </dependencies>
         <files>
@@ -278,10 +304,45 @@
       </pattern>
       <pattern>
         <dependencies operator="And">
+          <flagDependency flag="shadows" value="Off"/>
           <flagDependency flag="embers_xd" value="Off"/>
         </dependencies>
         <files>
           <file source="configs\lightplacer\nocturnal\no_shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\based_lighting\tg09nocturnalfxfirepurple.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+          <flagDependency flag="embers_xd" value="On"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple_embersxd.json" destination="LightPlacer\based_lighting\tg09nocturnalfxfirepurple_embersxd.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+          <flagDependency flag="embers_xd" value="Off"/>
+        </dependencies>
+        <files>
+          <file source="configs\lightplacer\nocturnal\shadows\tg09nocturnalfxfirepurple.json" destination="LightPlacer\based_lighting\tg09nocturnalfxfirepurple.json" priority="0"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="On"/>
+        </dependencies>
+        <files>
+          <folder source="configs\lightplacer\shadows" destination="LightPlacer\based_lighting"/>
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies operator="And">
+          <flagDependency flag="shadows" value="Off"/>
+        </dependencies>
+        <files>
+          <folder source="configs\lightplacer\no_shadows" destination="LightPlacer\based_lighting"/>
         </files>
       </pattern>
     </patterns>
