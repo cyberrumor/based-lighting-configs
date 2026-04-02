@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/dh-nunes/fomod-schema/master/ModuleConfig.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Nexus-Mods/fomod-installer/master/src/InstallScripting/XmlScript/Schemas/XmlScript5.0.xsd">
   <moduleName>Based Lighting Configs</moduleName>
   <requiredInstallFiles>
     <folder source="configs\lightplacer\generic" destination="LightPlacer"/>
