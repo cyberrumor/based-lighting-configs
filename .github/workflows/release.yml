@@ -1,4 +1,4 @@
-name: publish to nexus mods
+name: build release archive
 
 on:
   release:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Release tag to publish"
+        description: "Release tag to build"
         required: true
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
       - run: pre-commit run --all-files
 
-  publish:
+  build:
     needs: pre-commit
     runs-on: ubuntu-latest
     env:
@@ -39,14 +39,9 @@ jobs:
           ref: ${{ inputs.tag || github.event.release.tag_name }}
 
       - name: Build release archive
-        run: zip -r "${{ github.event.repository.name }}-$TAG.zip" fomod/ configs/ SKSE/ meshes/ textures/ plugins/
+        run: 7z a -t7z "${{ github.event.repository.name }}-$TAG.7z" fomod/ configs/ SKSE/ meshes/ textures/ plugins/
 
-      - name: Upload to Nexus Mods
-        uses: Nexus-Mods/upload-action@v1.0.0-beta.3
-        with:
-          api_key: ${{ secrets.NEXUS_API_KEY }}
-          file_group_id: 3215038
-          filename: "${{ github.event.repository.name }}-${{ env.TAG }}.zip"
-          version: ${{ env.TAG }}
-          display_name: "Based Lighting Configs"
-          description: "Remember to endorse!"
+      - name: Upload release artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "$TAG" "${{ github.event.repository.name }}-$TAG.7z"
