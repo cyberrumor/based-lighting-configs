@@ -26,9 +26,9 @@ repos:
         types: [json]
         exclude: shadows/
 
-      - id: sync-shadow-configs
-        name: sync-shadow-configs
-        entry: .pre-commit/sync-shadow-configs.sh
+      - id: config-gen-shadows
+        name: config-gen-shadows
+        entry: .pre-commit/config-gen-shadows.sh
         language: script
         types: [json]
         files: no_shadows/
@@ -47,9 +47,9 @@ repos:
         types: [json]
         exclude: windows_helios/
 
-      - id: sync-windows-helios
-        name: sync-windows-helios
-        entry: .pre-commit/sync-windows-helios.sh
+      - id: config-gen-helios
+        name: config-gen-helios
+        entry: .pre-commit/config-gen-helios.sh
         language: script
         types: [json]
         files: windows/
