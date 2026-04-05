@@ -13,16 +13,16 @@ repos:
         language: script
         types: [json]
 
-      - id: no-shadow-flag
+      - id: flag-remove-shadow
         name: no Shadow flag outside shadows directories
-        entry: .pre-commit/no-shadow-flag.sh
+        entry: .pre-commit/flag-remove-shadow.sh
         language: script
         types: [json]
         exclude: shadows/
 
-      - id: require-shadow-flag
+      - id: flag-add-shadow
         name: require Shadow flag in shadows directories
-        entry: .pre-commit/require-shadow-flag.sh
+        entry: .pre-commit/flag-add-shadow.sh
         language: script
         types: [json]
         files: shadows/
@@ -34,9 +34,9 @@ repos:
         types: [json]
         files: no_shadows/
 
-      - id: no-external-emittance
+      - id: flag-add-noexternalemittance
         name: ensure NoExternalEmittance on lights
-        entry: .pre-commit/no-external-emittance.sh
+        entry: .pre-commit/flag-add-noexternalemittance.sh
         language: script
         types: [json]
         exclude: windows_helios/
