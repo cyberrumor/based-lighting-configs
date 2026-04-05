@@ -20,19 +20,19 @@ repos:
         types: [json]
         exclude: shadows/
 
-      - id: flag-add-shadow
-        name: require Shadow flag in shadows directories
-        entry: .pre-commit/flag-add-shadow.sh
-        language: script
-        types: [json]
-        files: shadows/
-
       - id: sync-shadow-configs
         name: sync shadow configs from no_shadows
         entry: .pre-commit/sync-shadow-configs.sh
         language: script
         types: [json]
         files: no_shadows/
+
+      - id: flag-add-shadow
+        name: require Shadow flag in shadows directories
+        entry: .pre-commit/flag-add-shadow.sh
+        language: script
+        types: [json]
+        files: shadows/
 
       - id: flag-add-noexternalemittance
         name: ensure NoExternalEmittance on lights
