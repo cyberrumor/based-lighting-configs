@@ -34,12 +34,12 @@ repos:
         types: [json]
         files: no_shadows/
 
-      - id: windows-external-emittance
-        name: ensure externalEmittance on window lights
-        entry: .pre-commit/windows-external-emittance.sh
+      - id: no-external-emittance
+        name: ensure NoExternalEmittance on lights
+        entry: .pre-commit/no-external-emittance.sh
         language: script
         types: [json]
-        files: windows/
+        exclude: windows_helios/
 
       - id: sync-windows-helios
         name: sync windows configs to windows_helios
