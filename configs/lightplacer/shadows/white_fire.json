@@ -1,0 +1,147 @@
+[
+  {
+    "lights": [
+      {
+        "blackList": [
+          "0x0c83a5",
+          "0x0c83a6",
+          "0x0c8437",
+          "0x0c8438",
+          "0x0cb948",
+          "0x0c8eef",
+          "0x0c8ef0",
+          "0x12074b62",
+          "0x12074b63",
+          "0x12074b6a",
+          "0x12074b6b",
+          "0x12074b66",
+          "0x12074b67",
+          "0x1206fa5b",
+          "0x1206fa5d",
+          "0x1206a95a",
+          "0x1206a957",
+          "0x1206a958",
+          "0x1206a959",
+          "0x120c5bb2",
+          "0x12093195",
+          "0x12093196",
+          "0x1207ed76",
+          "0x12093191",
+          "0x12093192",
+          "0x12093193",
+          "0x12093194"
+        ],
+        "data": {
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "fade": 0.88,
+          "fadeController": {
+            "interpolation": "Linear",
+            "keys": [
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.0,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.1,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.3,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.5,
+                "value": 1.175
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.65,
+                "value": 1.25
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 0.8,
+                "value": 1.05
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.0,
+                "value": 1.15
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.2,
+                "value": 1.075
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.4,
+                "value": 1.2
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.6,
+                "value": 1.025
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 1.8,
+                "value": 1.1
+              },
+              {
+                "backward": 0.0,
+                "forward": 0.0,
+                "time": 2.0,
+                "value": 1.175
+              }
+            ]
+          },
+          "flags": "IgnoreScale|InverseSquare|NoExternalEmittance|RandomAnimStart|Shadow",
+          "light": "DefaultSunlight01NS",
+          "radius": 384.0,
+          "shadowDepthBias": 1.0
+        },
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "effects\\fxfirewithembers01_desaturated.nif",
+      "effects\\fxfirewithembers01_brazier_desaturated.nif",
+      "effects\\fxfirewithembers01_cheap_desaturated.nif",
+      "effects\\fxfirewithembers01_lite_desaturated.nif",
+      "effects\\fxfirewithembers02_desaturated.nif",
+      "effects\\fxfirewithembers04_desaturated.nif",
+      "effects\\fxfirewithembers05_desaturated.nif",
+      "effects\\fxfirewithembersheavytoggle_desaturated.nif",
+      "effects\\fxfirewithemberslogs01_desaturated.nif",
+      "effects\\fxfirewithemberslogs02_desaturated.nif",
+      "effects\\fxfirewithemberslogs03_desaturated.nif",
+      "effects\\fxfirewithemberslogs04_desaturated.nif"
+    ]
+  }
+]

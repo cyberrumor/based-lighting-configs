@@ -150,6 +150,18 @@
                 <type name="Optional"/>
               </typeDescriptor>
             </plugin>
+            <plugin name="Ghost Flames">
+              <description>Nordic dungeons will have white fire like in Elden Ring. Uses a plugin that's incompatible with other ember mods.</description>
+              <files>
+                <file source="configs\bos\eternal_flames\EternalFlamesWhite_SWAP.ini" destination="EternalFlamesWhite_SWAP.ini" priority="0"/>
+                <file source="plugins\bl_desaturated.esp" destination="bl_desaturated.esp" priority="0"/>
+                <folder source="configs\bos\eternal_flames\generic" destination="" priority="0"/>
+                <folder source="meshes" destination="meshes" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
             <plugin name="None">
               <description>Nordic dungeons will have mortal fire. Vanilla.</description>
               <files>
