@@ -62,22 +62,8 @@ repos:
         types: [xml]
 
       - id: validate-fomod
-        name: validate fomod against xsd
+        name: validate fomod
         entry: .pre-commit/validate-fomod.sh
-        language: script
-        types: [xml]
-        files: fomod/ModuleConfig\.xml$
-
-      - id: check-fomod-sources
-        name: check fomod source paths exist
-        entry: .pre-commit/check-fomod-sources.sh
-        language: script
-        types: [xml]
-        files: fomod/ModuleConfig\.xml$
-
-      - id: check-fomod-file-destinations
-        name: check fomod file source and destination filenames match
-        entry: .pre-commit/check-fomod-file-destinations.sh
         language: script
         types: [xml]
         files: fomod/ModuleConfig\.xml$
