@@ -54,9 +54,9 @@ repos:
         types: [json]
         files: windows/
 
-      - id: match-shadow-filenames
-        name: match-shadow-filenames
-        entry: .pre-commit/match-shadow-filenames.sh
+      - id: validate-shadow-parity
+        name: validate-shadow-parity
+        entry: .pre-commit/validate-shadow-parity.sh
         language: script
         pass_filenames: false
         always_run: true
