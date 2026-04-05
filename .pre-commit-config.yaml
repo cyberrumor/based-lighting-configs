@@ -8,61 +8,61 @@ repos:
     hooks:
 
       - id: format-xml
-        name: format xml with xmllint
+        name: format-xml
         entry: .pre-commit/format-xml.sh
         language: script
         types: [xml]
 
       - id: format-json
-        name: format json with jq
+        name: format-json
         entry: .pre-commit/format-json.sh
         language: script
         types: [json]
 
       - id: flag-remove-shadow
-        name: no Shadow flag outside shadows directories
+        name: flag-remove-shadow
         entry: .pre-commit/flag-remove-shadow.sh
         language: script
         types: [json]
         exclude: shadows/
 
       - id: sync-shadow-configs
-        name: sync shadow configs from no_shadows
+        name: sync-shadow-configs
         entry: .pre-commit/sync-shadow-configs.sh
         language: script
         types: [json]
         files: no_shadows/
 
       - id: flag-add-shadow
-        name: require Shadow flag in shadows directories
+        name: flag-add-shadow
         entry: .pre-commit/flag-add-shadow.sh
         language: script
         types: [json]
         files: shadows/
 
       - id: flag-add-noexternalemittance
-        name: ensure NoExternalEmittance on lights
+        name: flag-add-noexternalemittance
         entry: .pre-commit/flag-add-noexternalemittance.sh
         language: script
         types: [json]
         exclude: windows_helios/
 
       - id: sync-windows-helios
-        name: sync windows configs to windows_helios
+        name: sync-windows-helios
         entry: .pre-commit/sync-windows-helios.sh
         language: script
         types: [json]
         files: windows/
 
       - id: match-shadow-filenames
-        name: match filenames between no_shadows and shadows
+        name: match-shadow-filenames
         entry: .pre-commit/match-shadow-filenames.sh
         language: script
         pass_filenames: false
         always_run: true
 
       - id: validate-fomod
-        name: validate fomod
+        name: validate-fomod
         entry: .pre-commit/validate-fomod.sh
         language: script
         types: [xml]
