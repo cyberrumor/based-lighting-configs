@@ -3,7 +3,6 @@
   <moduleName>Based Lighting Configs</moduleName>
   <requiredInstallFiles>
     <folder source="configs\lightplacer\generic" destination="LightPlacer"/>
-    <folder source="textures" destination="textures"/>
     <folder source="SKSE" destination="SKSE"/>
     <file source="configs\bos\based_lighting\bl_SWAP.ini" destination="bl_SWAP.ini" priority="0"/>
   </requiredInstallFiles>
@@ -124,6 +123,15 @@
                 <type name="Optional"/>
               </typeDescriptor>
             </plugin>
+            <plugin name="Remove candle glow">
+              <description>Install a blank texture that overwrites the vanilla candle glow.</description>
+              <files>
+                <file source="textures\effects\candleglow01.dds" destination="textures\effects\candleglow01.dds" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
           </plugins>
         </group>
         <group name="Nordic Ruin Flames" type="SelectExactlyOne">
@@ -155,6 +163,8 @@
               <files>
                 <file source="configs\bos\eternal_flames\EternalFlamesWhite_SWAP.ini" destination="EternalFlamesWhite_SWAP.ini" priority="0"/>
                 <file source="plugins\bl_desaturated.esp" destination="bl_desaturated.esp" priority="0"/>
+                <file source="textures\effects\candleflame01_desaturated.dds" destination="textures\effects\candleflame01_desaturated.dds" priority="0"/>
+                <folder source="textures\effects\gradients" destination="textures\effects\gradients" priority="0"/>
                 <folder source="configs\bos\eternal_flames\generic" destination="" priority="0"/>
                 <folder source="meshes" destination="meshes" priority="0"/>
               </files>
