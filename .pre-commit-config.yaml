@@ -45,14 +45,6 @@ repos:
         entry: .pre-commit/flag-add-noexternalemittance.sh
         language: script
         types: [json]
-        exclude: windows_helios/
-
-      - id: config-gen-helios
-        name: config-gen-helios
-        entry: .pre-commit/config-gen-helios.sh
-        language: script
-        types: [json]
-        files: windows/
 
       - id: validate-shadow-parity
         name: validate-shadow-parity
