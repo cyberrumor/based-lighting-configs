@@ -1,0 +1,21 @@
+# Development tooling for based-lighting-configs, managed by mise
+# (https://mise.jdx.dev).
+#
+# CI installs mise and runs `mise install` to provision these tools; see
+# .github/workflows/pre-commit.yml. Contributors can do the same locally.
+#
+# The .pre-commit hooks invoke their scripts with `mise x -- <script>`, so the
+# scripts see all of these on PATH and call them by bare name (jq, xmllint,
+# sed, ...). The conda:* tools come from conda-forge via mise's conda backend,
+# which lets CI/local run fully hermetically without apt/system utilities.
+[tools]
+jq = "1.8.2"
+pre-commit = "4.6.2"
+
+"conda:libxml2" = "2.15.3"    # xmllint
+"conda:curl" = "8.21.0"
+"conda:sed" = "4.10"
+"conda:grep" = "3.12"
+"conda:diffutils" = "3.12"    # diff
+"conda:findutils" = "4.10.0"  # find
+"conda:coreutils" = "9.11"    # mktemp, basename, dirname, mv, rm, mkdir

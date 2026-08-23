@@ -7,55 +7,59 @@ repos:
   - repo: local
     hooks:
 
+      # Scripts are invoked through `mise x --` so they run with the
+      # mise-provisioned tools (jq, xmllint, sed, ...) on PATH and can call
+      # them by bare name. See mise.toml.
+
       - id: format-xml
         name: format-xml
-        entry: .pre-commit/format-xml.sh
-        language: script
+        entry: mise x -- .pre-commit/format-xml.sh
+        language: system
         types: [xml]
 
       - id: format-json
         name: format-json
-        entry: .pre-commit/format-json.sh
-        language: script
+        entry: mise x -- .pre-commit/format-json.sh
+        language: system
         types: [json]
 
       - id: flag-remove-shadow
         name: flag-remove-shadow
-        entry: .pre-commit/flag-remove-shadow.sh
-        language: script
+        entry: mise x -- .pre-commit/flag-remove-shadow.sh
+        language: system
         types: [json]
         exclude: shadows/
 
       - id: config-gen-shadows
         name: config-gen-shadows
-        entry: .pre-commit/config-gen-shadows.sh
-        language: script
+        entry: mise x -- .pre-commit/config-gen-shadows.sh
+        language: system
         types: [json]
         files: no_shadows/
 
       - id: flag-add-shadow
         name: flag-add-shadow
-        entry: .pre-commit/flag-add-shadow.sh
-        language: script
+        entry: mise x -- .pre-commit/flag-add-shadow.sh
+        language: system
         types: [json]
         files: shadows/
 
       - id: flag-add-noexternalemittance
         name: flag-add-noexternalemittance
-        entry: .pre-commit/flag-add-noexternalemittance.sh
-        language: script
+        entry: mise x -- .pre-commit/flag-add-noexternalemittance.sh
+        language: system
         types: [json]
 
       - id: validate-shadow-parity
         name: validate-shadow-parity
-        entry: .pre-commit/validate-shadow-parity.sh
-        language: script
+        entry: mise x -- .pre-commit/validate-shadow-parity.sh
+        language: system
         pass_filenames: false
         always_run: true
 
       - id: validate-fomod
         name: validate-fomod
-        entry: .pre-commit/validate-fomod.sh
-        language: script
+        entry: mise x -- .pre-commit/validate-fomod.sh
+        language: system
         types: [xml]
         files: fomod/ModuleConfig\.xml$

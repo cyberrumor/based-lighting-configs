@@ -17,16 +17,20 @@ jobs:
         with:
           ref: ${{ inputs.tag || github.event.release.tag_name }}
 
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y jq libxml2-utils
+      # Pin the mise CLI version to the one in based-lighting-configs/mise.
+      - name: Determine mise version
+        id: mise-version
+        run: |
+          version=$(grep -oP 'MISE_VERSION:-\Kv?[0-9]+\.[0-9]+\.[0-9]+' mise | head -n1)
+          echo "version=$version" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/setup-python@v5
+      - name: Install mise
+        uses: jdx/mise-action@v2
         with:
-          python-version: "3.x"
+          version: ${{ steps.mise-version.outputs.version }}
 
-      - run: pip install pre-commit
-
-      - run: pre-commit run --all-files
+      - name: Pre-commit
+        run: exec mise x -- pre-commit run --all-files --show-diff-on-failure
 
   build:
     needs: pre-commit
