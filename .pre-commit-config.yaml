@@ -6,60 +6,64 @@ repos:
       - id: end-of-file-fixer
   - repo: local
     hooks:
-
       # Scripts are invoked through `mise x --` so they run with the
       # mise-provisioned tools (jq, xmllint, sed, ...) on PATH and can call
       # them by bare name. See mise.toml.
-
       - id: format-xml
         name: format-xml
         entry: mise x -- .pre-commit/format-xml.sh
         language: system
         types: [xml]
-
       - id: format-json
         name: format-json
         entry: mise x -- .pre-commit/format-json.sh
         language: system
         types: [json]
-
       - id: flag-remove-shadow
         name: flag-remove-shadow
         entry: mise x -- .pre-commit/flag-remove-shadow.sh
         language: system
         types: [json]
         exclude: shadows/
-
       - id: config-gen-shadows
         name: config-gen-shadows
         entry: mise x -- .pre-commit/config-gen-shadows.sh
         language: system
         types: [json]
         files: no_shadows/
-
       - id: flag-add-shadow
         name: flag-add-shadow
         entry: mise x -- .pre-commit/flag-add-shadow.sh
         language: system
         types: [json]
         files: shadows/
-
       - id: flag-add-noexternalemittance
         name: flag-add-noexternalemittance
         entry: mise x -- .pre-commit/flag-add-noexternalemittance.sh
         language: system
         types: [json]
-
       - id: validate-shadow-parity
         name: validate-shadow-parity
         entry: mise x -- .pre-commit/validate-shadow-parity.sh
         language: system
         pass_filenames: false
         always_run: true
-
       - id: validate-fomod
         name: validate-fomod
         entry: mise x -- .pre-commit/validate-fomod.sh
         language: system
         types: [xml]
         files: fomod/ModuleConfig\.xml$
+      # yq's in-place edit only handles one file per invocation correctly
+      # (multiple files get merged into the first), so loop over each.
+      - id: yaml-format
+        name: yaml format (yq)
+        entry: mise x -- bash -c 'for f in "$@"; do yq -i "." "$f"; done' --
+        language: system
+        types_or: [yaml]
+      - id: actionlint
+        name: actionlint
+        entry: mise x -- actionlint
+        language: system
+        files: ^\.github/workflows/.*\.(yml|yaml)$
+        pass_filenames: false

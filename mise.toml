@@ -10,6 +10,8 @@
 # which lets CI/local run fully hermetically without apt/system utilities.
 [tools]
 jq = "1.8.2"
+actionlint = "1.7.12"
+yq = "4.53.6"
 pre-commit = "4.6.2"
 
 "conda:libxml2" = "2.15.3"    # xmllint
